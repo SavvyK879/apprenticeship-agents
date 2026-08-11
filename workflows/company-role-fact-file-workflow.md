@@ -20,7 +20,7 @@ Every fact file has these sections, in this order:
 4. **Role Requirements** — responsibilities and required skills/qualifications, taken from the official job listing
 5. **Application Process Steps** — the actual application stages (online form, assessment/testing, interview rounds, etc.), as far as findable
 6. **Application Tailoring Tips** — concrete suggestions: which skills to emphasize, language to mirror from the company's own materials, likely interview questions to prepare for
-7. **Sources** — numbered list of every source used, with links, matching the inline citation markers used throughout sections 1-5
+7. **Sources** — numbered list of every source used, with links, matching the inline citation markers used throughout sections 1-6
 
 ## Sources Used for Research
 
