@@ -28,10 +28,9 @@ Fields in the table, in order. The type matters, so match it exactly when writin
 | Role | single line text | Agent |
 | Attachments | attachments | Manual, do not populate |
 | Registered for Updates | checkbox | Manual, do not populate |
-| Open Day | single line text | Agent |
-| Open Month | single select | Agent |
-| Close Day | single line text | Agent |
-| Close Month | single select | Agent |
+| Open Date | date | Agent |
+| Close Date | date | Agent |
+| Date Notes | single line text | Agent |
 | Link | URL | Agent |
 | Location | single line text | Agent |
 | Length | single line text | Agent |
@@ -41,16 +40,14 @@ Fields in the table, in order. The type matters, so match it exactly when writin
 | Current Stage | single select | Agent sets to "Not applied" on new rows, then manual |
 | Next Stage | single line text | Manual, do not populate |
 | Next Stage Done | checkbox | Manual, do not populate |
-| Open Date | date | Agent |
-| Close Date | date | Agent |
-| Date Notes | single line text | Agent |
 
 Allowed single select values:
 
-* Open Month and Close Month: `Jan` `Feb` `Mar` `Apr` `May` `Jun` `Jul` `Aug` `Sep` `Oct` `Nov` `Dec`. Nothing else is valid. Do not write "January" or "09".
 * Current Stage: `Not applied` `Applied` `Interview` `Offer` `Rejected` `Withdrawn`.
 
 Open Date and Close Date display as D/M/YYYY in Airtable but must be written as `YYYY-MM-DD`.
+
+There are no separate day or month fields. All date detail lives in Open Date, Close Date and Date Notes.
 
 ## Step-By-Step Process
 
@@ -85,19 +82,21 @@ Do this separately for the opening date and the closing date.
 
 Writing the fields:
 
-* Open Day and Close Day are free text. Put the exact day here if you have one, for example "12th". If the real answer is a qualifier rather than a day, put that instead, for example "Rolling", "approx", "varies", or a range like "12th-18th".
-* Open Month and Close Month are single selects. You must write one of `Jan` `Feb` `Mar` `Apr` `May` `Jun` `Jul` `Aug` `Sep` `Oct` `Nov` `Dec`. Any other value will be rejected by Airtable.
-* If you can't find any date information, leave the relevant fields empty.
-
-Open Date and Close Date:
-
-These are real date fields used to sort and filter by what opens or closes next. Always populate them when you know the month.
+Open Date and Close Date are real date fields used to sort and filter by what opens or closes next. Always populate them when you know the month.
 
 * Write them as `YYYY-MM-DD`. Airtable displays them as D/M/YYYY, but that is only the display format.
 * If you have an exact day and month, combine them into that date.
-* If you only have a month, or the day is a qualifier like "Rolling", "approx", "varies", or a range, use the 1st of that month and record the original wording in Date Notes, for example "Open: Rolling" or "Close: 12th-18th (range)". The imprecision must not be lost.
+* If you only have a month, or the real answer is a qualifier like "Rolling", "approx" or "varies", or a range like "12th-18th", use the 1st of that month and record the original wording in Date Notes. The imprecision must not be lost.
 * For the year: use today's date and pick the next occurrence of that month and day on or after today. If the resulting date would be in the past, use next year.
-* If the month itself is unknown, leave Open Date and Close Date empty. Do not guess a year.
+* If the month itself is unknown, leave that date field empty. Do not guess a year.
+* If you can't find any date information at all, leave Open Date and Close Date empty.
+
+Date Notes is one line of free text covering both dates. Label each half so it stays readable, for example:
+
+* "Open: approx Dec/Jan. Close: rolling, no fixed deadline"
+* "Close: 12th-18th (range)"
+
+Leave Date Notes empty when both dates are exact and published.
 
 **Step 5 - Other details**
 
