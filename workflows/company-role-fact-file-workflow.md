@@ -14,12 +14,13 @@ Given a company and a role, research both thoroughly and produce a single, finis
 
 Every fact file has these sections, in this order:
 
-1. **Company Overview** — what they do, sector, size, mission/values
-2. **Recent News & Culture Signals** — recent press coverage, LinkedIn company/employee activity, anything showing direction or values in practice
-3. **Role Requirements** — responsibilities and required skills/qualifications, taken from the official job listing
-4. **Application Process Steps** — the actual application stages (online form, assessment/testing, interview rounds, etc.), as far as findable
-5. **Application Tailoring Tips** — concrete suggestions: which skills to emphasize, language to mirror from the company's own materials, likely interview questions to prepare for
-6. **Sources** — numbered list of every source used, with links, matching the inline citation markers used throughout sections 1-5
+1. **Company Overview** — what they do, sector, size, mission
+2. **Values** - what to they value from employees
+3. **Recent News & Culture Signals** — recent press coverage, LinkedIn company/employee activity, anything showing direction or values in practice
+4. **Role Requirements** — responsibilities and required skills/qualifications, taken from the official job listing
+5. **Application Process Steps** — the actual application stages (online form, assessment/testing, interview rounds, etc.), as far as findable
+6. **Application Tailoring Tips** — concrete suggestions: which skills to emphasize, language to mirror from the company's own materials, likely interview questions to prepare for
+7. **Sources** — numbered list of every source used, with links, matching the inline citation markers used throughout sections 1-5
 
 ## Sources Used for Research
 
@@ -58,6 +59,12 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 
 * Tell the user the fact file is ready and where to find it.
 * If the user gives feedback, edit the same file in place. Never create a second, near-duplicate file for the same company/role.
+
+**Step 6 - Update**
+* Once the user is happy with the end result, add the file to the attachment column in the Airtable Apprenticeship tracker
+* Base: "Apprenticeship Tracker" — `appGa8FIDwREZf4Vr`
+* Table: "Table 1" — `tblNtjoCUrKBM9g3Y`
+* push and commit the file to git after
 
 ## File Naming
 
