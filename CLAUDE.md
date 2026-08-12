@@ -57,6 +57,10 @@ Contains completed work and generated deliverables.
 Anything specific to one company goes in a per-company subfolder, e.g. /output/revolut/.
 Create a company folder only when the first file for that company is written. Never pre-create folders for companies with no files yet.
 
+/docs
+Contains design documents and specs written before a workflow is built.
+Specs live in /docs/superpowers/specs/ and are named YYYY-MM-DD-topic-design.md.
+
 When a new top-level folder is created, add it to this list.
 
 # Agent Behavior
