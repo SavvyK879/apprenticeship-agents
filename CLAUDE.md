@@ -52,17 +52,12 @@ Examples:
 /workflows
 Contains workflow instructions, agent definitions, and process documents.
 
-/outputs
+/output
 Contains completed work and generated deliverables.
+Anything specific to one company goes in a per-company subfolder, e.g. /output/revolut/.
+Create a company folder only when the first file for that company is written. Never pre-create folders for companies with no files yet.
 
-/resources
-Contains reference material, source documents, examples, and research.
-
-/drafts
-Contains work in progress and temporary files.
-
-/templates
-Contains reusable templates and frameworks.
+When a new top-level folder is created, add it to this list.
 
 # Agent Behavior
 Before starting any task:

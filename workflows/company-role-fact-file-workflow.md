@@ -40,8 +40,9 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 
 **Step 2 - Check for an existing fact file**
 
-* Check `/output/fact-files/` for a file matching this company and role.
-* If one exists, tell the user and ask whether to update it or leave it as is, rather than silently overwriting it.
+* Check `/output/{company}/` for a file matching this role. Use a lowercase, hyphenated version of the company name for the folder (see File Naming).
+* If the company folder doesn't exist yet, there's no existing fact file for this company — skip straight to Step 3.
+* If a matching file exists, tell the user and ask whether to update it or leave it as is, rather than silently overwriting it.
 
 **Step 3 - Full research pass**
 
@@ -50,7 +51,8 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 
 **Step 4 - Write the fact file**
 
-* Write the complete report directly to `/output/fact-files/{company}-{role}-fact-file.md` using the structure above.
+* Each company gets its own folder under `/output/`. If `/output/{company}/` doesn't exist yet, create it now — don't pre-create folders for companies that don't have a fact file yet.
+* Write the complete report directly to `/output/{company}/{company}-{role}-fact-file.md` using the structure above.
 * Add inline citation markers (`[1]`, `[2]`, ...) next to claims as they're written.
 * Build the Application Tailoring Tips section from the research gathered, not from generic advice.
 * Add the Sources section at the bottom with the full list of links, numbered to match the inline markers.
@@ -69,5 +71,6 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 ## File Naming
 
 * Lowercase, hyphens instead of spaces, no special characters, per workspace file naming rules.
-* Pattern: `{company}-{role}-fact-file.md`
-* Example: `revolut-software-engineering-apprentice-fact-file.md`
+* Each company has its own folder: `/output/{company}/`. Create it only when the first file for that company is written — never pre-create folders for companies without one. Anything else company-specific written later goes in the same folder.
+* File pattern: `/output/{company}/{company}-{role}-fact-file.md`
+* Example: `/output/revolut/revolut-software-engineering-apprentice-fact-file.md`
