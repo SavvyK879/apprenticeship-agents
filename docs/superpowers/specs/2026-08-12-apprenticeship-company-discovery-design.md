@@ -57,7 +57,11 @@ seed the In Tracker table, says that it did so, and does not read Airtable again
 
 1. Receive a quota. Defaults to 10 if not given.
 2. Load the cache, seeding it from Airtable if the file is missing.
-3. Discover candidate companies from listing sites and open web search.
+3. Discover candidate companies from two sources working together:
+   * Apprenticeship listing sites: GOV.UK Find an Apprenticeship, RateMyApprenticeship,
+     UCAS, Not Going To Uni.
+   * Open web search for employers running schemes, to catch those who only advertise on
+     their own careers page.
 4. Screen each candidate:
    * If the company appears in either cache table, skip it with no research.
    * Otherwise check for a level 6 Digital Technology Solutions apprenticeship aligned to
