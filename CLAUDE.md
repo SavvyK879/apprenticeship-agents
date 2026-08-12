@@ -59,7 +59,7 @@ Create a company folder only when the first file for that company is written. Ne
 
 /docs
 Contains design documents and specs written before a workflow is built.
-Specs live in /docs/superpowers/specs/ and are named YYYY-MM-DD-topic-design.md.
+Specs live in /docs/superpowers/specs/ and are named topic-design.md.
 
 When a new top-level folder is created, add it to this list.
 
