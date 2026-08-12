@@ -36,13 +36,14 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 **Step 1 - Receive company and role**
 
 * Accept a company name and a specific role/job title.
-* If multiple companies or roles are given, split them up and run this workflow separately for each.
+* If multiple companies are given, split them up and run this workflow separately for each.
+* Only one role is tracked per company, so only one fact file per company.
 
 **Step 2 - Check for an existing fact file**
 
-* Check `/output/{company}/` for a file matching this role. Use a lowercase, hyphenated version of the company name for the folder (see File Naming).
+* Check `/output/{company}/` for `{company}-fact-file.md`. Use a lowercase, hyphenated version of the company name for the folder (see File Naming).
 * If the company folder doesn't exist yet, there's no existing fact file for this company — skip straight to Step 3.
-* If a matching file exists, tell the user and ask whether to update it or leave it as is, rather than silently overwriting it.
+* If the file exists, tell the user and ask whether to update it or leave it as is, rather than silently overwriting it. If the role given is different from the role in the existing file, say so and ask which role to keep — don't create a second file for the same company.
 
 **Step 3 - Full research pass**
 
@@ -52,7 +53,7 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 **Step 4 - Write the fact file**
 
 * Each company gets its own folder under `/output/`. If `/output/{company}/` doesn't exist yet, create it now — don't pre-create folders for companies that don't have a fact file yet.
-* Write the complete report directly to `/output/{company}/{company}-{role}-fact-file.md` using the structure above.
+* Write the complete report directly to `/output/{company}/{company}-fact-file.md` using the structure above.
 * Add inline citation markers (`[1]`, `[2]`, ...) next to claims as they're written.
 * Build the Application Tailoring Tips section from the research gathered, not from generic advice.
 * Add the Sources section at the bottom with the full list of links, numbered to match the inline markers.
@@ -60,7 +61,7 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 **Step 5 - Deliver and revise**
 
 * Tell the user the fact file is ready and where to find it.
-* If the user gives feedback, edit the same file in place. Never create a second, near-duplicate file for the same company/role.
+* If the user gives feedback, edit the same file in place. Never create a second, near-duplicate file for the same company.
 
 **Step 6 - Update**
 * Once the user is happy with the end result, add the file to the attachment column in the Airtable Apprenticeship tracker
@@ -72,5 +73,5 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 
 * Lowercase, hyphens instead of spaces, no special characters, per workspace file naming rules.
 * Each company has its own folder: `/output/{company}/`. Create it only when the first file for that company is written — never pre-create folders for companies without one. Anything else company-specific written later goes in the same folder.
-* File pattern: `/output/{company}/{company}-{role}-fact-file.md`
-* Example: `/output/revolut/revolut-software-engineering-apprentice-fact-file.md`
+* File pattern: `/output/{company}/{company}-fact-file.md`. The role is not in the file name — only one role is tracked per company. The role itself is named inside the file, in the Role Requirements section.
+* Example: `/output/revolut/revolut-fact-file.md`
