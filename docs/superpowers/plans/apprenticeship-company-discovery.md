@@ -19,6 +19,7 @@ Copied from the spec and from CLAUDE.md. Every task must respect these.
 * Tracker base: "Apprenticeship Tracker" `appGa8FIDwREZf4Vr`, table "Table 1" `tblNtjoCUrKBM9g3Y`.
 * Role filter wording must match `ai-apprenticeship-agent-workflow.md` Step 3 exactly: level 6 Digital Technology Solutions aligned to Software Engineer, else level 4 in software engineering, AI engineering or similar, never network engineering or cybersecurity.
 * Default quota: 10. Stop rule: give up after screening 3x the quota.
+* Rejections expire after one month. Anything rejected a month or more ago gets screened again.
 * No em dashes anywhere in written output.
 * No filler. Short, direct instructions, matching the tone of the existing two workflow files.
 
@@ -69,6 +70,7 @@ State the path `/output/apprenticeship-search-log.md` and give both tables with 
 Then state the three rules that govern it:
 * If the file does not exist, do one full Airtable read of the Company and Role fields to build the In Tracker table, say that this was done, and do not read Airtable again unless asked.
 * Append to In Tracker immediately after each successful Airtable write. This is what allows the cache to be trusted without re-reading Airtable.
+* A Rejected row is only binding for a month from its Date checked. Once it is a month or more old, screen the company again and overwrite the row with the new date and reason. Never let the Rejected table become a permanent blocklist.
 * Dates are written `YYYY-MM-DD`.
 
 - [ ] **Step 4: Write the Step-By-Step Process section**
@@ -78,7 +80,7 @@ Eight steps, in this order, using the `**Step N - Name**` heading style:
 1. **Receive a quota.** A number of new companies to find. Default 10 if not given.
 2. **Load the cache.** Seed it from Airtable if the file is missing, per the Cache File section.
 3. **Discover candidates.** Two sources: the listing sites GOV.UK Find an Apprenticeship, RateMyApprenticeship, UCAS and Not Going To Uni, plus open web search for employers running schemes on their own careers pages. No location, sector, size or grade filter. Collect names into a working list.
-4. **Screen each candidate.** Skip with no research if the company appears in either cache table. Otherwise apply the role filter copied verbatim from the tracker workflow. Passes go to the shortlist with role and link, preferring the company's own page over a job board. Fails go to the Rejected table with a one line reason and today's date.
+4. **Screen each candidate.** Skip with no research if the company is in In Tracker, or in Rejected with a Date checked less than a month old. Everything else gets screened, including rejections a month or more old. Apply the role filter copied verbatim from the tracker workflow. Passes go to the shortlist with role and link, preferring the company's own page over a job board. Fails go to the Rejected table with a one line reason and today's date, overwriting any existing row for that company.
 5. **Repeat until the quota of new qualifying companies is met.** Duplicates and rejections do not count towards it.
 6. **Stop rule.** If 3x the quota has been screened without filling it, stop and report what was found.
 7. **Print the shortlist in chat.** Company, Role, Link. No file is written for the shortlist.
@@ -88,7 +90,7 @@ Eight steps, in this order, using the `**Step N - Name**` heading style:
 
 Manual Overrides, two bullets:
 * Re-sync the cache: one full Airtable read rebuilds In Tracker. Never touches Rejected.
-* Naming a company directly forces a re-check even if it sits in Rejected. Rejections are otherwise permanent.
+* Naming a company directly forces a re-check even if it was rejected within the last month.
 
 File Naming: one line pointing at the workspace rules in CLAUDE.md, plus the two fixed paths.
 
@@ -99,6 +101,7 @@ Run this checklist against the file you just wrote:
 * The role filter wording matches `ai-apprenticeship-agent-workflow.md` Step 3.
 * Both cache table column sets match Step 3 above exactly.
 * The quota default is 10 and the stop rule is 3x.
+* Rejections expire after one month, and the Rejected row is overwritten on a re-screen.
 * No sentence longer than it needs to be.
 
 - [ ] **Step 7: Commit**

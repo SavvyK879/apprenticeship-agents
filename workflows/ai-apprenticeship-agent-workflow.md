@@ -26,7 +26,7 @@ Fields in the table, in order. The type matters, so match it exactly when writin
 | --- | --- | --- |
 | Company | single line text | Agent |
 | Role | single line text | Agent |
-| Attachments | attachments | Manual, do not populate |
+| Attachments | attachments | Fact-file workflow, not this one |
 | Registered for Updates | checkbox | Manual, do not populate |
 | Open Date | date | Agent |
 | Close Date | date | Agent |
@@ -102,7 +102,8 @@ Leave Date Notes empty when both dates are exact and published.
 
 * Research the remaining details and populate: Location, Length, Training Provider, Grades, Salary.
 * All five are free text. Keep them short, for example "London", "4 years", "BBB", "£24,000".
-* Leave Attachments, Registered for Updates, Next Stage and Next Stage Done alone. Those are manual.
+* Leave Registered for Updates, Next Stage and Next Stage Done alone. Those are manual.
+* Leave Attachments alone too. It is populated by `company-role-fact-file-workflow.md` once a fact file exists, not during a tracker run.
 
 **Step 6 - Finalising**
 

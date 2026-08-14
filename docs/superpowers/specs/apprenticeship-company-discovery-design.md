@@ -30,7 +30,7 @@ Both start from a company name I supply by hand. Nothing currently finds the com
 | Duplicate handling | Skipped, and the quota tops up to replace them | A request for 10 should return 10 new companies, not 10 minus whatever is already tracked. |
 | Airtable reads | One seed read, then never again unless I ask | Reading the tracker through the MCP on every run is slow and burns tokens. |
 | Cache freshness | Trusted during runs, re-synced only on request | Chosen over re-reading Airtable each run, which would defeat the point of the cache. |
-| Rejections | Permanent unless I say otherwise | Re-checking companies that had nothing is wasted effort. Naming a company forces a re-check. |
+| Rejections | Expire after a month | Re-checking last week's rejections is wasted effort, but schemes launch and listings change. A month keeps the search cheap without turning the Rejected table into a permanent blocklist. Naming a company forces a re-check at any time. |
 | Repeat-run efficiency | Not pursued | Saving leftover unscreened candidates for the next run was considered and dropped. Listings change month to month, so a saved list goes stale. |
 
 ## The cache file
@@ -63,7 +63,10 @@ seed the In Tracker table, says that it did so, and does not read Airtable again
    * Open web search for employers running schemes, to catch those who only advertise on
      their own careers page.
 4. Screen each candidate:
-   * If the company appears in either cache table, skip it with no research.
+   * If the company is in the In Tracker table, skip it with no research.
+   * If the company is in the Rejected table and was checked less than a month ago, skip it
+     with no research. If the check is a month or more old, screen it again and overwrite its
+     row with the new date and reason.
    * Otherwise check for a level 6 Digital Technology Solutions apprenticeship aligned to
      software engineering. Failing that, a level 4 apprenticeship in software or AI
      engineering. Never networking or cybersecurity.
@@ -81,8 +84,8 @@ seed the In Tracker table, says that it did so, and does not read Airtable again
 
 * **Re-sync the cache.** One full Airtable read rebuilds the In Tracker table. The Rejected
   table is never touched by a re-sync.
-* **Name a company directly.** Forces a re-check even if the company sits in the Rejected
-  table. This is the escape hatch, since rejections are otherwise permanent.
+* **Name a company directly.** Forces a re-check even if the company was rejected within the
+  last month. This is the escape hatch for anything that cannot wait for the month to pass.
 
 ## Rules carried over
 
