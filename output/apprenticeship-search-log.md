@@ -21,16 +21,22 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Bentley | Digital Technology Solutions Degree Apprentice | 2026-08-11 |
 | BP | Digital Apprenticeship - Software & Platform Engineering (Level 4) | 2026-08-14 |
 | BT Group | Software Engineer Apprentice (Level 6 DTS, Software Engineering) | 2026-08-14 |
+| CACI | Software Engineering Apprenticeship (Level 6 DTS Professional) | 2026-08-14 |
 | Capgemini | Digital & Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | CGI | Software Engineering Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | Cisco | Degree Apprenticeship (Digital & Technology Solutions, software rotations) | 2026-08-14 |
+| Citi | FinTech Level 6 Degree Apprenticeship (Software Engineering) | 2026-08-14 |
+| Defence Equipment & Support | Digital Technology Degree Apprenticeship (Software Engineering specialism) | 2026-08-14 |
 | Deloitte | Technology BrightStart Higher Apprenticeship (Level 6) | 2026-08-11 |
 | Deutsche Bank | Technology, Data & Innovation Apprenticeship Programme (Level 4) | 2026-08-11 |
+| DWP Digital | Digital & Technology Solutions Degree Apprenticeship (Level 6, Software Engineer pathway) | 2026-08-14 |
 | E.ON | Digital and Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | EY | Technology Apprenticeship | 2026-08-11 |
+| Frazer-Nash Consultancy | Software Engineer Apprenticeship (Level 6 DTS, Software Engineer pathway) | 2026-08-14 |
 | Fujitsu | Software Development Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | Goldman Sachs | Technology Degree Apprenticeship (Digital and Technology Solutions) | 2026-08-11 |
 | Google | Software engineering apprenticeship | 2026-08-11 |
+| GSK | Software Developer Degree Apprentice (BSc Digital Technology Solutions, Software) | 2026-08-14 |
 | HSBC | Engineering Degree Apprenticeship (Level 6) | 2026-08-11 |
 | IBM | Digital and Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-11 |
 | JBA Consulting | Software Developer Degree Apprentice | 2026-08-11 |
@@ -38,6 +44,7 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | JP Morgan | Technology Degree Apprenticeship | 2026-08-11 |
 | Kainos | Earn As You Learn Apprentice Technologist (Software Engineering) | 2026-08-14 |
 | KPMG | Digital and Technology Solutions Apprenticeship | 2026-08-11 |
+| Legal & General | Software Engineering L6 Apprenticeship Programme | 2026-08-14 |
 | Leonardo UK | Software Engineering Degree Apprentice (Level 6 DTS) | 2026-08-14 |
 | Lloyds Banking Group | Technology Engineering Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | Mace | Digital and Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-11 |
@@ -49,7 +56,10 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | PA Consulting | Digital Apprentice (Software Development) | 2026-08-11 |
 | PwC | Technology Degree Apprenticeship (Level 6) | 2026-08-11 |
 | QinetiQ | Software Engineering Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
+| Renishaw | Software Engineer Apprentice (Level 6 DTS Professional) | 2026-08-14 |
+| Roke | Degree Apprentice - Software Engineer (Digital & Technology Solutions) | 2026-08-14 |
 | Rolls-Royce | Digital & Technology Solutions Degree Apprenticeship | 2026-08-11 |
+| Royal Mail | Software Engineer Apprentice (Level 6 Digital & Technology Solutions) | 2026-08-14 |
 | RSM | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-11 |
 | Santander | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
 | Shell | Digital Leadership Accelerator Programme | 2026-08-11 |
@@ -96,10 +106,27 @@ reliable way to be told when applications actually open.
 
 | Company | Date checked | Reason |
 | --- | --- | --- |
+| Admiral Group | 2026-08-14 | No level 6 software engineering apprenticeship found |
+| Centrica | 2026-08-14 | Apprenticeships are gas, electrical and metering trades, tech route is a graduate scheme |
+| Computacenter | 2026-08-14 | Apprenticeships are level 3 and 4 digital support, project management and cyber |
+| Costain | 2026-08-14 | Degree apprenticeship is civil and structural engineering, no digital route |
+| Dell Technologies | 2026-08-14 | UK apprenticeships are sales, marketing, HR and supply chain, no software engineering |
+| Jacobs | 2026-08-14 | No level 6 software engineering apprenticeship found |
+| Leidos UK | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Morgan Stanley | 2026-08-14 | Level 6 software route is a Scottish Graduate Apprenticeship, needs Scottish Highers |
+| Nationwide Building Society | 2026-08-14 | Tech apprenticeships exist via Swindon IoT but level 6 software route unconfirmed |
 | NatWest | 2026-08-14 | Level 6 DTS unconfirmed, careers page unreachable |
+| Nomura | 2026-08-14 | No level 6 software engineering apprenticeship found |
+| Northrop Grumman UK | 2026-08-14 | Early careers is graduate and placement only, no level 6 apprenticeship |
 | Ocado | 2026-08-14 | Only level 6 is data science, no software engineering route |
+| Oracle | 2026-08-14 | No level 6 UK software engineering apprenticeship found |
+| Ordnance Survey | 2026-08-14 | Uses apprenticeships levels 3 to 7 but no software engineering route published |
+| Raytheon UK | 2026-08-14 | Degree apprenticeships offered but no software engineering route confirmed |
+| Severn Trent | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Sky | 2026-08-14 | No tech apprenticeship in current programmes |
 | Sopra Steria | 2026-08-14 | No level 6 software engineering route found, only level 4 testing |
+| SSE | 2026-08-14 | No level 6 software engineering apprenticeship found |
+| Tesco | 2026-08-14 | Software engineering is a graduate scheme, not an apprenticeship |
 | Unilever | 2026-08-14 | Level 6 digital and tech is business-facing, no software engineering pathway |
+| Version 1 | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Virgin Media O2 | 2026-08-14 | Level 6 routes are network engineering, excluded by the role filter |
