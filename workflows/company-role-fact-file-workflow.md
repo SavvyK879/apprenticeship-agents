@@ -63,11 +63,33 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 * Tell the user the fact file is ready and where to find it.
 * If the user gives feedback, edit the same file in place. Never create a second, near-duplicate file for the same company.
 
-**Step 6 - Update**
-* Once the user is happy with the end result, add the file to the attachment column in the Airtable Apprenticeship tracker
+**Step 6 - Attach to the tracker**
+
+Only start this once the user has confirmed in Step 5 that they are happy with the fact file. Never attach a draft.
+
 * Base: "Apprenticeship Tracker" — `appGa8FIDwREZf4Vr`
 * Table: "Table 1" — `tblNtjoCUrKBM9g3Y`
-* push and commit the file to git after
+* Attachments field: `fldeCMjs1DOQ2dJYY`
+
+Find the record first. Search the Company field for the company name. If no record exists, say so and stop. The tracker row has to exist before a fact file can hang off it, and creating that row is the other workflow's job.
+
+Airtable will not take a file upload through the MCP tools. It takes a URL and fetches the file itself, so the file has to be publicly reachable for a moment. The repo is private, so a GitHub link will not work.
+
+*Preferred path, via Google Drive*
+
+1. Upload `/output/{company}/{company}-fact-file.md` to Google Drive.
+2. Turn on link sharing so anyone with the link can view.
+3. Build the direct download URL: `https://drive.google.com/uc?export=download&id={fileId}`.
+4. Write it to the Attachments field as `[{"url": "<that URL>", "filename": "{company}-fact-file.md"}]`.
+5. Read the record back and check the attachment landed. Airtable copies the file into its own storage, so the Drive copy is only a courier. Delete it once the attachment shows.
+
+*Fallback, manual*
+
+If the upload fails, the link will not fetch, or Airtable rejects it, stop after one retry. Tell the user the full file path and ask them to drag it into the Attachments cell. Say which step failed so they know what broke.
+
+*Then commit*
+
+Commit and push the fact file to git once the attachment is sorted, not before.
 
 ## File Naming
 
