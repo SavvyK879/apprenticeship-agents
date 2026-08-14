@@ -31,19 +31,28 @@ Both start from a company name I supply by hand. Nothing currently finds the com
 | Airtable reads | One seed read, then never again unless I ask | Reading the tracker through the MCP on every run is slow and burns tokens. |
 | Cache freshness | Trusted during runs, re-synced only on request | Chosen over re-reading Airtable each run, which would defeat the point of the cache. |
 | Rejections | Expire after a month | Re-checking last week's rejections is wasted effort, but schemes launch and listings change. A month keeps the search cheap without turning the Rejected table into a permanent blocklist. Naming a company forces a re-check at any time. |
+| Wrong timing, right company | Third table, Revisit, with a date to come back on | Some companies qualify on role but the intake is wrong, for example one that starts before I finish A levels. Rejecting them throws away good research and they get rediscovered next run. A revisit date parks them until the timing is worth checking again. |
 | Repeat-run efficiency | Not pursued | Saving leftover unscreened candidates for the next run was considered and dropped. Listings change month to month, so a saved list goes stale. |
 
 ## The cache file
 
-Lives at `/output/apprenticeship-search-log.md`. Two tables.
+Lives at `/output/apprenticeship-search-log.md`. Three tables.
 
 **In Tracker**
 
 | Company | Role | Date added |
 
+**Revisit**
+
+| Company | Role | Date checked | Why it was pulled | Revisit from |
+
 **Rejected**
 
 | Company | Date checked | Reason |
+
+Revisit is for companies that pass the role filter but whose timing is wrong right now. A row
+is binding until its Revisit from date. Unlike a Rejected row it keeps the role and the full
+reason, so the research is not thrown away and the row can rebuild an Airtable record.
 
 The cache is what makes the trusted-cache decision work. Because the workflow does not
 re-read Airtable, it must append to the In Tracker table every time the tracker workflow
@@ -64,6 +73,9 @@ seed the In Tracker table, says that it did so, and does not read Airtable again
      their own careers page.
 4. Screen each candidate:
    * If the company is in the In Tracker table, skip it with no research.
+   * If the company is in the Revisit table and today is before its Revisit from date, skip it
+     with no research. If today is on or after that date, screen it again and delete the Revisit
+     row, letting the result go to the shortlist or to Rejected as normal.
    * If the company is in the Rejected table and was checked less than a month ago, skip it
      with no research. If the check is a month or more old, screen it again and overwrite its
      row with the new date and reason.
@@ -82,10 +94,14 @@ seed the In Tracker table, says that it did so, and does not read Airtable again
 
 ## Manual overrides
 
-* **Re-sync the cache.** One full Airtable read rebuilds the In Tracker table. The Rejected
-  table is never touched by a re-sync.
+* **Re-sync the cache.** One full Airtable read rebuilds the In Tracker table. The Revisit and
+  Rejected tables are never touched by a re-sync.
 * **Name a company directly.** Forces a re-check even if the company was rejected within the
-  last month. This is the escape hatch for anything that cannot wait for the month to pass.
+  last month, or is in Revisit with a future date. This is the escape hatch for anything that
+  cannot wait.
+* **Park a company.** Move a company out of the tracker into Revisit with a date to come back
+  on. Delete the Airtable row only after its details are written into the Revisit entry, so the
+  row can be rebuilt.
 
 ## Rules carried over
 
