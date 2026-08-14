@@ -44,7 +44,6 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | GCHQ | Software Engineering Degree Apprenticeship (Level 6) | 2026-08-14 |
 | Google | Software engineering apprenticeship | 2026-08-11 |
 | GSK | Software Developer Degree Apprentice (BSc Digital Technology Solutions, Software) | 2026-08-14 |
-| HMRC | Software Developer & Engineer Apprenticeship (Level 4) | 2026-08-14 |
 | HSBC | Engineering Degree Apprenticeship (Level 6) | 2026-08-11 |
 | IBM | Digital and Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-11 |
 | JBA Consulting | Software Developer Degree Apprentice | 2026-08-11 |
@@ -85,7 +84,6 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Thames Water Utilities | Digital Degree Apprentice | 2026-08-11 |
 | The Sheffield College | Digital & Technology Solutions Professional Degree Apprentice (Level 6) | 2026-08-14 |
 | UBS | GOTO Technology Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
-| Unisys | 4 Year Technical Degree Apprentice (Level 6 DTS Professional) | 2026-08-14 |
 | Vigence | Digital Technology Software Engineering Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | VodafoneThree | Software Apprentice (Level 6 DTS, Software Engineering) | 2026-08-14 |
 | Zurich UK | Data & Technology Degree Apprenticeship (Level 6 BSc DTS) | 2026-08-14 |
@@ -101,6 +99,8 @@ screened again and the row is deleted, along with its row detail subsection.
 | Company | Role | Date checked | Why it was pulled | Revisit from |
 | --- | --- | --- | --- | --- |
 | Accenture | Digital & Technology Solutions Degree Apprenticeship | 2026-08-14 | Only confirmed 2027 intake starts April 2027, too early for an A level finish in summer 2027. That intake's deadline (15 Jul 2026) has already passed. Accenture's 2026/27 start dates run Sept 2026 to Aug 2027, so an autumn 2027 start falls in the following cycle. | 2027-03 |
+| HMRC | Software Developer & Engineer Apprenticeship (Level 4) | 2026-08-14 | Only confirmed intake starts February, not September. Next Feb cycle (2027) is too early for an A level finish in summer 2027. | 2027-09 |
+| Unisys | 4 Year Technical Degree Apprentice (Level 6 DTS Professional) | 2026-08-14 | Only confirmed vacancy started 1 October 2026, no evidence of a later intake. | 2027-03 |
 
 ### Accenture row detail
 
@@ -121,6 +121,46 @@ applications in March 2027. That is the window lining up with an autumn 2027 sta
 from the start of March 2027. This date is from secondary sources, not Accenture's own site,
 which blocked automated reads. Registering interest on the Accenture careers site is the
 reliable way to be told when applications actually open.
+
+### HMRC row detail
+
+Kept so the Airtable row can be rebuilt. Removed from the tracker on 2026-08-14.
+
+* Role: Software Developer & Engineer Apprenticeship (Level 4)
+* Location: Salford, Manchester (Three New Bailey)
+* Length: 2 years
+* Training Provider: Not published
+* Salary: £31,096 plus £9,008 pension contribution
+* Open Date / Close Date / Date Notes: Close est. 9 Jan 2027 (from 2026 cycle). Feb start, not Sept
+* Current Stage: Not applied
+* Registered for Updates: not ticked
+* Next Stage: Apply
+* Link: https://www.findapprenticeship.service.gov.uk/apprenticeship/reference/2000005501
+
+**September 2027.** HMRC's only confirmed intake for this role starts in February, not
+September (2026 cycle closed 9 Jan, started Feb). That's too early for an A level finish in
+summer 2027. If this is an annual pattern, applications for the next intake (start Feb 2028,
+which would work) likely open around autumn 2027 — check from September 2027.
+
+### Unisys row detail
+
+Kept so the Airtable row can be rebuilt. Removed from the tracker on 2026-08-14.
+
+* Role: 4 Year Technical Degree Apprentice (Level 6 DTS Professional)
+* Location: Milton Keynes (MK17 8LX)
+* Length: 4 years
+* Training Provider: QA Limited
+* Salary: £15,600 to £24,784.50
+* Open Date / Close Date / Date Notes: Close 1 Sept 2026, published and still open. Start 1 Oct 2026
+* Current Stage: Not applied
+* Registered for Updates: not ticked
+* Next Stage: Apply
+* Link: https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000044999
+
+**March 2027.** The only confirmed vacancy for this role started 1 October 2026, well before
+an autumn 2027 start. QA Limited (the training provider) runs apprenticeship cohorts for
+multiple employers through the year, so a later intake may appear — check GOV.UK Find an
+Apprenticeship and Unisys's own careers page from March 2027.
 
 ## Unverified
 
