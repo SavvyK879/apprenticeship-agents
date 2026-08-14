@@ -7,7 +7,6 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 
 | Company | Role | Date added |
 | --- | --- | --- |
-| Accenture | Digital & Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | Airbus | Digital and Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | Amazon | Software development engineer apprentice | 2026-08-11 |
 | Apple | Software Engineering (Level 4) Apprenticeship | 2026-08-11 |
@@ -50,6 +49,38 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Thales UK | Software Engineering Apprentice (Level 6 DTS) | 2026-08-14 |
 | Thames Water Utilities | Digital Degree Apprentice | 2026-08-11 |
 | VodafoneThree | Software Apprentice (Level 6 DTS, Software Engineering) | 2026-08-14 |
+
+## Revisit
+
+Pulled out of the tracker because the timing or fit is wrong for now, but worth another look
+later. Not a rejection: these pass the role filter.
+
+A row here is binding until its Revisit from date. On or after that date the company gets
+screened again and the row is deleted. The discovery workflow that enforces this is not built
+yet, so until it is, treat this section as a manual reminder list.
+
+| Company | Role | Date checked | Why it was pulled | Revisit from |
+| --- | --- | --- | --- | --- |
+| Accenture | Digital & Technology Solutions Degree Apprenticeship | 2026-08-14 | Only confirmed 2027 intake starts April 2027, too early for an A level finish in summer 2027. That intake's deadline (15 Jul 2026) has already passed. Accenture's 2026/27 start dates run Sept 2026 to Aug 2027, so an autumn 2027 start falls in the following cycle. | 2027-03 |
+
+### Accenture row detail
+
+Kept so the Airtable row can be rebuilt. Removed from the tracker on 2026-08-14.
+
+* Role: Digital & Technology Solutions Degree Apprenticeship
+* Location: Multiple UK locations (London, Manchester, Newcastle, Glasgow)
+* Length: 3-4 years
+* Training Provider: Varies by location (e.g. University of East London, Northumbria)
+* Salary: £24,700–£26,300 approx
+* Registered for Updates: ticked
+* Next Stage: Apply
+* Current Stage: Not applied
+
+**March 2027.** Accenture's next batch of apprenticeship roles is reported to open for
+applications in March 2027. That is the window lining up with an autumn 2027 start, so check
+from the start of March 2027. This date is from secondary sources, not Accenture's own site,
+which blocked automated reads. Registering interest on the Accenture careers site is the
+reliable way to be told when applications actually open.
 
 ## Rejected
 
