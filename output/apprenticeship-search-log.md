@@ -9,6 +9,7 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | --- | --- | --- |
 | Airbus | Digital and Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | Amazon | Software development engineer apprentice | 2026-08-11 |
+| Anglian Water | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
 | Apple | Software Engineering (Level 4) Apprenticeship | 2026-08-11 |
 | Arm | Level 6 Software Engineer Apprentice (Digital Technology Solutions) | 2026-08-14 |
 | AtkinsRéalis | Digital and Technology Solutions (Degree) Apprentice - Software engineering | 2026-08-11 |
@@ -16,6 +17,7 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Babcock International | Digital & Technology Solutions Degree Apprenticeship (Software Engineering pathway) | 2026-08-14 |
 | BAE Systems | Degree Apprentice - Digital Technology Solutions | 2026-08-11 |
 | Bank of America | Global Markets Technology Apprentice | 2026-08-11 |
+| Bank of England | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
 | Barclays | Level 6 Developer | 2026-08-11 |
 | BBC | Software Engineer (Level 6) | 2026-08-11 |
 | Bentley | Digital Technology Solutions Degree Apprentice | 2026-08-11 |
@@ -31,12 +33,15 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Deutsche Bank | Technology, Data & Innovation Apprenticeship Programme (Level 4) | 2026-08-11 |
 | DWP Digital | Digital & Technology Solutions Degree Apprenticeship (Level 6, Software Engineer pathway) | 2026-08-14 |
 | E.ON | Digital and Technology Solutions Degree Apprenticeship | 2026-08-11 |
+| Experian | Software Engineer Degree Apprentice (Level 6 DTS) | 2026-08-14 |
 | EY | Technology Apprenticeship | 2026-08-11 |
 | Frazer-Nash Consultancy | Software Engineer Apprenticeship (Level 6 DTS, Software Engineer pathway) | 2026-08-14 |
 | Fujitsu | Software Development Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | Goldman Sachs | Technology Degree Apprenticeship (Digital and Technology Solutions) | 2026-08-11 |
+| GCHQ | Software Engineering Degree Apprenticeship (Level 6) | 2026-08-14 |
 | Google | Software engineering apprenticeship | 2026-08-11 |
 | GSK | Software Developer Degree Apprentice (BSc Digital Technology Solutions, Software) | 2026-08-14 |
+| HMRC | Software Developer & Engineer Apprenticeship (Level 4) | 2026-08-14 |
 | HSBC | Engineering Degree Apprenticeship (Level 6) | 2026-08-11 |
 | IBM | Digital and Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-11 |
 | JBA Consulting | Software Developer Degree Apprentice | 2026-08-11 |
@@ -52,6 +57,7 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | MBDA | Software Engineering Level 6 Degree Apprenticeship (Digital & Technology Solutions) | 2026-08-11 |
 | Mondelez | Digital & Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | National Grid | Higher/Degree Apprenticeship (Level 6) - IT & Digital | 2026-08-11 |
+| National Highways | Digital & Technology Solutions Professional Apprentice (Level 6) | 2026-08-14 |
 | Network Rail | Level 6 Machine Learning (AI) Engineering | 2026-08-11 |
 | PA Consulting | Digital Apprentice (Software Development) | 2026-08-11 |
 | PwC | Technology Degree Apprenticeship (Level 6) | 2026-08-11 |
@@ -62,13 +68,17 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Royal Mail | Software Engineer Apprentice (Level 6 Digital & Technology Solutions) | 2026-08-14 |
 | RSM | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-11 |
 | Santander | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
+| Schroders | Global Technology Apprenticeship Programme (Software Development Engineer) | 2026-08-14 |
+| Sellafield | Digital Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
 | Shell | Digital Leadership Accelerator Programme | 2026-08-11 |
 | Siemens | Digital Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
 | Stantec | Digital and Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | TfL | Software Development Apprenticeship (Level 4) | 2026-08-11 |
 | Thales UK | Software Engineering Apprentice (Level 6 DTS) | 2026-08-14 |
 | Thames Water Utilities | Digital Degree Apprentice | 2026-08-11 |
+| UBS | GOTO Technology Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | VodafoneThree | Software Apprentice (Level 6 DTS, Software Engineering) | 2026-08-14 |
+| Zurich UK | Data & Technology Degree Apprenticeship (Level 6 BSc DTS) | 2026-08-14 |
 
 ## Revisit
 
@@ -107,26 +117,37 @@ reliable way to be told when applications actually open.
 | Company | Date checked | Reason |
 | --- | --- | --- |
 | Admiral Group | 2026-08-14 | No level 6 software engineering apprenticeship found |
+| Atos | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Centrica | 2026-08-14 | Apprenticeships are gas, electrical and metering trades, tech route is a graduate scheme |
+| Collins Aerospace | 2026-08-14 | Apprenticeships are level 3 technical and aerospace engineering, no software route |
 | Computacenter | 2026-08-14 | Apprenticeships are level 3 and 4 digital support, project management and cyber |
 | Costain | 2026-08-14 | Degree apprenticeship is civil and structural engineering, no digital route |
 | Dell Technologies | 2026-08-14 | UK apprenticeships are sales, marketing, HR and supply chain, no software engineering |
+| Dyson | 2026-08-14 | Dyson Institute is now a level 7 MEng engineering degree, no longer an apprenticeship |
+| Flutter (Sky Betting & Gaming) | 2026-08-14 | No apprenticeship found, software roles are graduate level |
+| GKN Aerospace | 2026-08-14 | Degree apprenticeships are aerospace engineering, no software route |
+| Home Office | 2026-08-14 | Only level 4 route found is cyber security, excluded by the role filter |
 | Jacobs | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Leidos UK | 2026-08-14 | No level 6 software engineering apprenticeship found |
+| LSEG | 2026-08-14 | No level 6 software engineering apprenticeship found, engineering route is a graduate programme |
 | Morgan Stanley | 2026-08-14 | Level 6 software route is a Scottish Graduate Apprenticeship, needs Scottish Highers |
 | Nationwide Building Society | 2026-08-14 | Tech apprenticeships exist via Swindon IoT but level 6 software route unconfirmed |
 | NatWest | 2026-08-14 | Level 6 DTS unconfirmed, careers page unreachable |
 | Nomura | 2026-08-14 | No level 6 software engineering apprenticeship found |
+| NHS England | 2026-08-14 | Digital routes are information systems, governance and data science, no software engineering |
 | Northrop Grumman UK | 2026-08-14 | Early careers is graduate and placement only, no level 6 apprenticeship |
 | Ocado | 2026-08-14 | Only level 6 is data science, no software engineering route |
 | Oracle | 2026-08-14 | No level 6 UK software engineering apprenticeship found |
 | Ordnance Survey | 2026-08-14 | Uses apprenticeships levels 3 to 7 but no software engineering route published |
 | Raytheon UK | 2026-08-14 | Degree apprenticeships offered but no software engineering route confirmed |
+| Serco | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Severn Trent | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Sky | 2026-08-14 | No tech apprenticeship in current programmes |
 | Sopra Steria | 2026-08-14 | No level 6 software engineering route found, only level 4 testing |
 | SSE | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Tesco | 2026-08-14 | Software engineering is a graduate scheme, not an apprenticeship |
+| UK Power Networks | 2026-08-14 | Apprenticeships are power engineering, digital academy is business admin and finance |
 | Unilever | 2026-08-14 | Level 6 digital and tech is business-facing, no software engineering pathway |
+| United Utilities | 2026-08-14 | Level 6 routes are engineering, no software engineering pathway confirmed |
 | Version 1 | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Virgin Media O2 | 2026-08-14 | Level 6 routes are network engineering, excluded by the role filter |
