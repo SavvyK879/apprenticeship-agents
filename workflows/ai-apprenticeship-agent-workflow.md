@@ -73,12 +73,29 @@ There are no separate day or month fields. All date detail lives in Open Date, C
 
 **Step 4 - Date details**
 
-Do this separately for the opening date and the closing date.
+Dates are the most important fields in this tracker. Everything else describes a scheme; the
+dates are what stop me missing it. Treat them as the priority of the whole run, not as one
+field among ten. A blank Open Date or Close Date should be rare and must be earned, meaning
+you searched properly and the information genuinely does not exist anywhere.
+
+Do this separately for the opening date and the closing date. Give each its own dedicated
+search. Do not rely on one combined search that also covers salary and location, because
+dates get buried in those results.
 
 * Check the company website and the apprenticeship listing first for a published date.
-* If not published there, do a quick, non-exhaustive search elsewhere online.
-* If still not found, estimate using last year's opening/closing date for the same apprenticeship.
-* Never fabricate a date. Only enter one if there's reasonable evidence for it.
+* If not published there, search specifically for that date. Try the company's early careers
+  page, the listing on GOV.UK Find an Apprenticeship, and aggregators such as Gradcracker,
+  Bright Network, RateMyApprenticeship and Prosple. Aggregator listings usually state a
+  closing date even when the employer's own page does not.
+* If the current cycle is not published, use a past cycle. This is required, not optional.
+  Last year's listing for the same scheme is good evidence. Take its day and month, apply the
+  year rule below, and say in Date Notes which cycle it came from.
+* If last year's exact listing is gone, a documented pattern still counts. Examples: "recruits
+  Jan to May", "applications open in October", "closes once filled". Use it and label it.
+* Only leave a date blank after all of the above fail. When you do, Date Notes must say what
+  you looked for and why it is empty, for example "Close: not published, 2026 listing removed".
+* Never fabricate a date. Only enter one if there's reasonable evidence for it. An estimate
+  clearly labelled in Date Notes is not fabrication. A guessed date with no basis is.
 
 Writing the fields:
 
@@ -88,8 +105,14 @@ Open Date and Close Date are real date fields used to sort and filter by what op
 * If you have an exact day and month, combine them into that date.
 * If you only have a month, or the real answer is a qualifier like "Rolling", "approx" or "varies", or a range like "12th-18th", use the 1st of that month and record the original wording in Date Notes. The imprecision must not be lost.
 * For the year: use today's date and pick the next occurrence of that month and day on or after today. If the resulting date would be in the past, use next year.
-* If the month itself is unknown, leave that date field empty. Do not guess a year.
-* If you can't find any date information at all, leave Open Date and Close Date empty.
+* If the month itself is unknown, leave that date field empty. Do not guess a year. Reaching
+  this point should be the exception, not the habit.
+* If you can't find any date information at all, leave Open Date and Close Date empty and say
+  so explicitly in Date Notes.
+
+Before finishing a row, check its two date fields. If either is blank, ask yourself whether
+you actually searched for it on its own or only hoped it would turn up. If it was the second,
+go back and search again.
 
 Date Notes is one line of free text covering both dates. Label each half so it stays readable, for example:
 
