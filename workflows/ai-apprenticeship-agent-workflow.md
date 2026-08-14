@@ -66,6 +66,7 @@ There are no separate day or month fields. All date detail lives in Open Date, C
 * Research whether the company offers a level 6 Digital Technology Solutions apprenticeship. If they have multiple options, choose the one most aligned to the role of a Software Engineer. Do not include network engineering or cybersecurity apprenticeships.
 * If no level 6 role exists, check whether the company offers a level 4 apprenticeship in software engineering, AI engineering, or similar.
 * If neither exists, skip this company entirely. Do not create a record for it.
+* Then apply the qualification rule. I am studying A levels in England, so a role fails if its entry requirements are qualifications I cannot hold, whatever its level or title. The clearest case is a Scottish Graduate Apprenticeship, which requires Scottish Highers. This is not a grades filter: do not skip a role for asking high grades or a specific subject, only for a qualification that is unobtainable for an England-based A level student. Skip the company and say which qualification was the blocker.
 * Otherwise, create a new record and populate:
   * Company and Role with what you found.
   * Link with the URL of the apprenticeship listing or application page. Use the company's own page over a job board where possible.

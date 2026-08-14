@@ -47,7 +47,7 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 
 **Step 3 - Full research pass**
 
-* Research all four content sections (Company Overview, Recent News & Culture Signals, Role Requirements, Application Process Steps) using only the approved sources.
+* Research all five content sections (Company Overview, Values, Recent News & Culture Signals, Role Requirements, Application Process Steps) using only the approved sources.
 * Do this before writing anything — the goal is a finished report on the first write, not a rough pass to be redone later.
 
 **Step 4 - Write the fact file**
