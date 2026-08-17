@@ -65,7 +65,6 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Neptune North | Digital & Technology Solutions Degree Apprenticeship (Site Reliability Engineering) | 2026-08-14 |
 | Network Rail | Level 6 Machine Learning (AI) Engineering | 2026-08-11 |
 | PA Consulting | Digital Apprentice (Software Development) | 2026-08-11 |
-| PwC | Technology Degree Apprenticeship (Level 6) | 2026-08-11 |
 | QinetiQ | Software Engineering Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | Renishaw | Software Engineer Apprentice (Level 6 DTS Professional) | 2026-08-14 |
 | Roke | Degree Apprentice - Software Engineer (Digital & Technology Solutions) | 2026-08-14 |
@@ -182,6 +181,7 @@ and the row deleted.
 | Company | Date checked | Reason |
 | --- | --- | --- |
 | Admiral Group | 2026-08-14 | No level 6 software engineering apprenticeship found |
+| PwC | 2026-08-17 | Only route found is the Digital Degree Apprenticeship (Level 6 DTS w/ University of Exeter) run via PwC Channel Islands, open to Jersey/Guernsey residents only. No separate UK mainland route currently running. Fails the qualification/eligibility rule for an England-based applicant |
 | Atos | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Baker Hughes | 2026-08-14 | Level 6 route is embedded electronic systems engineering, a different standard to DTS |
 | Centrica | 2026-08-14 | Apprenticeships are gas, electrical and metering trades, tech route is a graduate scheme |
