@@ -1,51 +1,15 @@
 # CLAUDE.md
-This file provides guidance to Claude Code when working in this repository.
+This file provides guidance to Claude Code when working in this repository (apprenticeship-agents).
 
-# Project Context
-This workspace is used for AI-assisted research, workflow automation, and agent development.
-All outputs should prioritize usefulness, clarity, and real-world application over theory.
+General rules that apply across all of my agent sections (communication style, planning rules, file naming, etc.) live in the CLAUDE.md one level up, at the root of Agent Workspace.
 
-# About Me
-I am a student looking to break into the world of software engineering and AI engineering. I am studying A levels and am looking at applying for apprenticeships and university.
-I prefer concise, direct communication without unnecessary jargon or corporate language.
-Every output should feel like advice from an experienced practitioner rather than a consultant or academic.
+# Goal
+This repo runs the agents that find and apply to software/AI engineering apprenticeships:
 
-# Communication Style
-
-Write in clear, conversational English.
-Use simple language whenever possible.
-Avoid buzzwords, corporate jargon, and vague statements.
-Focus on practical examples and actionable insights.
-Prioritize clarity over sophistication.
-Explain concepts as if speaking to an intelligent beginner.
-Use short paragraphs and strong structure.
-Do not use em dashes in writing. 
-
-# Rules
-
-Always ask at least three clarifying questions before starting any complex task.
-Always present a plan before execution.
-Never make assumptions when important information is missing.
-Keep outputs concise and relevant.
-Do not add filler content to increase length.
-Stay within requested word counts and formats.
-Use practical examples whenever possible.
-When multiple approaches exist, explain the tradeoffs.
-If uncertain, ask before proceeding.
-Review outputs before final delivery.
-
-# File Naming Rules
-
-Use lowercase file names.
-Use hyphens instead of spaces.
-Use descriptive names.
-Avoid special characters.
-
-Examples:
-
-* ai-agent-research.md
-* youtube-script-outline.md
-* workflow-documentation.md
+- Discover apprenticeship listings at target companies (apprenticeship-company-discovery-workflow.md).
+- Build a fact file on a specific company and role before applying (company-role-fact-file-workflow.md).
+- Tailor the master CV to a specific role (cv-tailoring-workflow.md).
+- Coordinate the above end to end (ai-apprenticeship-agent-workflow.md).
 
 # Folder Structure
 
@@ -67,26 +31,3 @@ Neither carries a date in the file name.
 Contains the master CV (master-cv.md), the single source of truth for the user's experience. Tailored per-company versions do not live here - those go in /output/{company}/.
 
 When a new top-level folder is created, add it to this list.
-
-# Agent Behavior
-Before starting any task:
-1. Understand the objective.
-2. Ask clarifying questions if needed.
-3. Create a plan.
-4. Execute step by step.
-5. Review the output.
-6. Improve weak areas.
-7. Deliver the final result.
-
-Never skip planning for complex tasks.
-Never prioritize speed over quality.
-Always optimize for usefulness and accuracy.
-
-# Success Criteria
-A successful output should be:
-Clear
-Actionable
-Accurate
-Concise
-Easy to understand
-Immediately useful
