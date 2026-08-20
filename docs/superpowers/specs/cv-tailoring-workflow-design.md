@@ -35,9 +35,10 @@ No master CV exists in the repo yet. The user has one as a Word/Google Doc outsi
 3. Every time the agent adds phrasing or infers emphasis not verbatim in the master CV, it must be listed explicitly for the user when the draft is presented — a short "Inferred/added" callout, not folded silently into the draft.
 4. Name, contact info, and education always appear in the tailored CV, regardless of relevance filtering.
 5. Every section present in the master CV keeps at least one item in the tailored version. Never trim a section to zero.
-6. Target max 2 pages. Enforced at the docx stage (see Step 5).
+6. Target max 2 pages. Enforced at the docx stage (see Step 7).
 7. Manual trigger only — the user asks per company, any time after that company's fact file exists.
 8. This workflow only reads the fact file and master CV. It never writes to them, and never touches the Airtable tracker.
+9. Before the draft is shown to the user, an independent subagent verifies every claim in it traces back to the master CV. Anything it can't verify gets fixed before the user sees it.
 
 ### Step-By-Step Process
 
@@ -55,14 +56,23 @@ Read the full fact file (especially "Application Tailoring Tips," but also Compa
 - Reorder sections/bullets, cut less-relevant bullets, reword to mirror the company's language, apply light inference where reasonable — per the Rules above.
 - Keep name, contact info, and education always present; keep every section non-empty.
 - Write to `/output/{company}/{company}-cv.md`.
-- Present the draft to the user along with an explicit "Inferred/added" list of anything not verbatim from the master CV.
+- Keep a running note of anything added or inferred beyond what's verbatim in the master CV, for the "Inferred/added" list in Step 6.
 
-**Step 5 — Review and generate docx**
+**Step 5 — Verify against the master CV**
+- Dispatch a fresh subagent with no context on how the draft was written, given only the tailored draft and `/cv/master-cv.md`.
+- Task it with checking every factual claim in the draft, line by line, against the master CV, flagging anything not traceable back to it.
+- If it flags anything, fix the draft and re-run the check before continuing.
+- This is independent of, not a replacement for, the "Inferred/added" callout — disclosed inference is fine, undisclosed unverifiable content is not.
+
+**Step 6 — Present the draft**
+Present the verified draft to the user along with the "Inferred/added" list from Step 4.
+
+**Step 7 — Review and generate docx**
 - User reviews the markdown draft and gives feedback; edit in place (never a second near-duplicate file), same pattern as the fact-file workflow.
 - Once approved, generate `/output/{company}/{company}-cv.docx` using the docx skill — a clean, simple, ATS-friendly layout, not matched to the user's original Word template.
 - Check the generated docx's page count. If it exceeds 2 pages, trim least-relevant bullets first (never the never-cut fields, never a section to zero) and regenerate.
 
-**Step 6 — Deliver**
+**Step 8 — Deliver**
 Tell the user both files are ready and where to find them.
 
 ## File Naming
