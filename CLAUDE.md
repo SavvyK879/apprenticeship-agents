@@ -63,6 +63,9 @@ Specs live in /docs/superpowers/specs/ and are named topic-design.md.
 Implementation plans live in /docs/superpowers/plans/ and are named topic.md.
 Neither carries a date in the file name.
 
+/cv
+Contains the master CV (master-cv.md), the single source of truth for the user's experience. Tailored per-company versions do not live here - those go in /output/{company}/.
+
 When a new top-level folder is created, add it to this list.
 
 # Agent Behavior
