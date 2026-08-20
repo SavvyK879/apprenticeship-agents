@@ -82,7 +82,6 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Thales UK | Software Engineering Apprentice (Level 6 DTS) | 2026-08-14 |
 | Thames Water Utilities | Digital Degree Apprentice | 2026-08-11 |
 | The Sheffield College | Digital & Technology Solutions Professional Degree Apprentice (Level 6) | 2026-08-14 |
-| UBS | GOTO Technology Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | Vigence | Digital Technology Software Engineering Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | VodafoneThree | Software Apprentice (Level 6 DTS, Software Engineering) | 2026-08-14 |
 | Zurich UK | Data & Technology Degree Apprenticeship (Level 6 BSc DTS) | 2026-08-14 |
@@ -208,6 +207,7 @@ and the row deleted.
 | Sopra Steria | 2026-08-14 | No level 6 software engineering route found, only level 4 testing |
 | SSE | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Tesco | 2026-08-14 | Software engineering is a graduate scheme, not an apprenticeship |
+| UBS | 2026-08-17 | GOTO (Technology) apprenticeship no longer on UBS's live apprenticeship pages, only existed for the 2025 cohort. Remaining routes (Internal Audit Innovation/Analytics, Wealth Management, Investment Bank, Group Treasury) are audit/finance-facing, not software engineering |
 | UK Power Networks | 2026-08-14 | Apprenticeships are power engineering, digital academy is business admin and finance |
 | Unilever | 2026-08-14 | Level 6 digital and tech is business-facing, no software engineering pathway |
 | Version 1 | 2026-08-14 | No level 6 software engineering apprenticeship found |
