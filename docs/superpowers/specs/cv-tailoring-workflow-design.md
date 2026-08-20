@@ -46,7 +46,7 @@ Accept a company name. If multiple are given, run the workflow separately for ea
 
 **Step 2 — Check prerequisites**
 - Check `/output/{company}/{company}-fact-file.md` exists. If not, stop and tell the user to run the fact-file workflow first.
-- Check `/cv/master-cv.md` exists. If not, stop and tell the user to do the one-time conversion first.
+- Check `/cv/master-cv.md` exists. If not, don't stop — ask the user to paste or attach their current CV, then do the one-time conversion inline: transcribe it faithfully into markdown (same structure as the source, no rewording, no tagging), present it for review, and save it to `/cv/master-cv.md` once approved. Then continue with Step 3.
 
 **Step 3 — Read inputs**
 Read the full fact file (especially "Application Tailoring Tips," but also Company Overview, Values, and Role Requirements for context) and the full master CV.
