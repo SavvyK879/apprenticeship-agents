@@ -64,10 +64,9 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 * If the user gives feedback, edit the same file in place. Never create a second, near-duplicate file for the same company.
 
 **Step 6 - Update**
-* Once the user is happy with the end result, add the file to the attachment column in the Airtable Apprenticeship tracker
-* Base: "Apprenticeship Tracker" — `appGa8FIDwREZf4Vr`
-* Table: "Table 1" — `tblNtjoCUrKBM9g3Y`
-* push and commit the file to git after
+* Once the user is happy with the end result, push and commit the fact file to git.
+* Nothing else to update — the site detects the fact file automatically from its location
+  on disk (`/output/{company}/{company}-fact-file.md`) at build time.
 
 ## File Naming
 
