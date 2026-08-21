@@ -28,3 +28,11 @@ venv/
 
 # SDD scratch workspace (not part of the project)
 .superpowers/
+
+# Personal CV content (never public)
+/cv/master-cv.md
+output/*/*-cv.md
+output/*/*-cv.docx
+
+# Personal tracker data (never public)
+/data/my-tracker.local.json
