@@ -22,9 +22,13 @@ export function filterCompanies(companies: Company[], criteria: FilterCriteria):
       const matchesRole = c.role.toLowerCase().includes(q);
       if (!matchesCompany && !matchesRole) return false;
     }
-    if (criteria.location && c.location.toLowerCase() !== criteria.location.toLowerCase()) {
+    if (
+      criteria.location &&
+      !c.location.toLowerCase().includes(criteria.location.toLowerCase())
+    ) {
       return false;
     }
+    // Entries with no known open or close date are deliberately included, so an unpublished deadline never hides an opportunity.
     if (criteria.openAfter && c.openDate && c.openDate < criteria.openAfter) {
       return false;
     }
