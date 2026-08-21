@@ -3,7 +3,10 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { createServer } from './server.mjs';
+
+const PUBLIC_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public');
 
 function makeTempDataDir() {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'personal-tracker-test-'));
@@ -163,5 +166,33 @@ test('POST /api/personal against a corrupt personal file responds 500, survives,
     // The server must still be alive after this failure too.
     const getRes = await fetch(`${base}/api/companies`);
     assert.equal(getRes.status, 200);
+  });
+});
+
+test('GET a path resolving to a directory inside public/ responds without crashing, and the server survives', async () => {
+  await withServer(async (base) => {
+    fs.mkdirSync(PUBLIC_DIR, { recursive: true });
+    const dirPath = path.join(PUBLIC_DIR, 'test-dir-tmp');
+    fs.mkdirSync(dirPath, { recursive: true });
+    try {
+      const res = await fetch(`${base}/test-dir-tmp`);
+      assert.equal(res.status, 404);
+
+      // A follow-up request proves the server process is still alive.
+      const followUp = await fetch(`${base}/api/companies`);
+      assert.equal(followUp.status, 200);
+    } finally {
+      fs.rmSync(dirPath, { recursive: true, force: true });
+    }
+  });
+});
+
+test('GET a nonexistent static file responds 404 and the server survives', async () => {
+  await withServer(async (base) => {
+    const res = await fetch(`${base}/does-not-exist-at-all.html`);
+    assert.equal(res.status, 404);
+
+    const followUp = await fetch(`${base}/api/companies`);
+    assert.equal(followUp.status, 200);
   });
 });

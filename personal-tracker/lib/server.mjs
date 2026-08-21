@@ -61,6 +61,9 @@ export function createServer({ companiesPath, personalPath }) {
     if (req.method === 'POST' && req.url === '/api/personal') {
       let body = '';
       req.on('data', (chunk) => { body += chunk; });
+      req.on('error', () => {
+        sendJson(res, 400, { error: 'Request stream error' });
+      });
       req.on('end', () => {
         let id, entry;
         try {
@@ -99,13 +102,30 @@ export function createServer({ companiesPath, personalPath }) {
     const requestedPath = req.url === '/' ? '/index.html' : req.url;
     const fullPath = path.join(PUBLIC_DIR, requestedPath);
     const rel = path.relative(PUBLIC_DIR, fullPath);
-    if (rel.startsWith('..') || path.isAbsolute(rel) || !fs.existsSync(fullPath)) {
+    if (rel.startsWith('..') || path.isAbsolute(rel)) {
       res.writeHead(404);
       res.end('Not found');
       return;
     }
-    const ext = path.extname(fullPath);
-    res.writeHead(200, { 'Content-Type': MIME[ext] || 'application/octet-stream' });
-    res.end(fs.readFileSync(fullPath));
+    try {
+      const stat = fs.statSync(fullPath);
+      if (!stat.isFile()) {
+        res.writeHead(404);
+        res.end('Not found');
+        return;
+      }
+      const contents = fs.readFileSync(fullPath);
+      const ext = path.extname(fullPath);
+      res.writeHead(200, { 'Content-Type': MIME[ext] || 'application/octet-stream' });
+      res.end(contents);
+    } catch (err) {
+      if (err.code === 'ENOENT') {
+        res.writeHead(404);
+        res.end('Not found');
+      } else {
+        res.writeHead(500);
+        res.end('Internal server error');
+      }
+    }
   });
 }
