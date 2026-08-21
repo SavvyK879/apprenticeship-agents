@@ -57,13 +57,13 @@ gets a subsection below the table, so the research is not lost:
 
 Kept so the companies.json entry can be rebuilt. Removed from the tracker on {YYYY-MM-DD}.
 
-* Role:
-* Location:
-* Length:
-* Training Provider:
-* Grades:
-* Salary:
-* Open Date / Close Date / Date Notes:
+* role:
+* location:
+* length:
+* trainingProvider:
+* grades:
+* salary:
+* openDate / closeDate / dateNotes:
 
 {One short paragraph on why the Revisit from date was chosen and what to check when it arrives.}
 ```

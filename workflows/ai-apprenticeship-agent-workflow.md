@@ -40,7 +40,7 @@ Fields in the JSON entries, in order. Match them exactly when writing.
 
 The `id` field is a lowercase, hyphenated slug derived from the company name. Strip accents, drop `&`, remove non-letter/digit/space characters, and collapse spaces to single hyphens. Examples: `Legal & General` becomes `legal-general`; `E.ON` becomes `eon`. This slug is used as the folder name in `/output/{id}/` for the company's fact file.
 
-Open Date and Close Date are written as `YYYY-MM-DD` strings in the JSON.
+openDate and closeDate are written as `YYYY-MM-DD` strings in the JSON.
 
 There are no separate day or month fields. All date detail lives in openDate, closeDate and dateNotes.
 
@@ -71,7 +71,7 @@ There are no separate day or month fields. All date detail lives in openDate, cl
 
 Dates are the most important fields in this tracker. Everything else describes a scheme; the
 dates are what stop me missing it. Treat them as the priority of the whole run, not as one
-field among ten. A blank Open Date or Close Date should be rare and must be earned, meaning
+field among ten. A blank openDate or closeDate should be rare and must be earned, meaning
 you searched properly and the information genuinely does not exist anywhere.
 
 Do this separately for the opening date and the closing date. Give each its own dedicated
@@ -85,10 +85,10 @@ dates get buried in those results.
   closing date even when the employer's own page does not.
 * If the current cycle is not published, use a past cycle. This is required, not optional.
   Last year's listing for the same scheme is good evidence. Take its day and month, apply the
-  year rule below, and say in Date Notes which cycle it came from.
+  year rule below, and say in dateNotes which cycle it came from.
 * If last year's exact listing is gone, a documented pattern still counts. Examples: "recruits
   Jan to May", "applications open in October", "closes once filled". Use it and label it.
-* Only leave a date blank after all of the above fail. When you do, Date Notes must say what
+* Only leave a date blank after all of the above fail. When you do, dateNotes must say what
   you looked for and why it is empty, for example "Close: not published, 2026 listing removed".
 * Never fabricate a date. Only enter one if there's reasonable evidence for it. An estimate
   clearly labelled in Date Notes is not fabrication. A guessed date with no basis is.
