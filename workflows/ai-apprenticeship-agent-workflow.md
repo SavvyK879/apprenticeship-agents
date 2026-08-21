@@ -38,7 +38,7 @@ Fields in the JSON entries, in order. Match them exactly when writing.
 | dateNotes | string | Agent |
 | link | URL string | Agent |
 
-The `id` field is a hyphenated slug derived from the company name. Generate it by: (1) lowercase the name, (2) strip accents, (3) drop `&`, (4) remove non-letter/digit/space characters, (5) collapse spaces to single hyphens. Examples: `Legal & General` becomes `legal-general`; `E.ON` becomes `eon`. This slug is used as the folder name in `/output/{id}/` for the company's fact file.
+The `id` field is a hyphenated slug derived from the company name. Generate it by: (1) lowercase the name, (2) strip accents, (3) drop `&`, (4) remove characters that are not letters, digits, spaces, or hyphens (hyphens already in the name are kept), (5) collapse any run of spaces and/or hyphens into a single hyphen, (6) trim any leading or trailing hyphen. Examples: `Legal & General` becomes `legal-general`; `E.ON` becomes `eon`; `Rolls-Royce` becomes `rolls-royce` (the existing hyphen survives step 4 and is not removed). This slug is used as the folder name in `/output/{id}/` for the company's fact file.
 
 openDate and closeDate are written as `YYYY-MM-DD` strings in the JSON.
 

@@ -32,6 +32,8 @@ Fact files are not personal — they're company/role research — and stay in th
 | Tech stack | Next.js, static export | One framework covers both the public static site and the local personal-mode dev server. Common enough stack to double as a portfolio-relevant build. |
 | Hosting | Vercel or GitHub Pages, free tier | Static site, no server to run or pay for. Redeploy on push to `main` (or whenever `companies.json` changes). |
 
+**Deviation from the Tech Stack decision above:** what was actually built splits the two modes into separate apps instead of one shared Next.js codebase. `/site` is the public Next.js static export, and `/personal-tracker` is a fully separate app (plain `node:http`, vanilla JS, its own `npm start`), not a dev-only mode of `/site`. This is stronger than the original plan: personal-mode code cannot leak into the public export at build time, because it never shares a codebase, a dependency tree, or a build step with `/site` in the first place.
+
 ## Data model
 
 ### `/data/companies.json` (public, git-tracked)

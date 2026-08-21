@@ -77,14 +77,14 @@ git commit -m "docs: document /data, /site, /personal-tracker and ignore persona
 - Create: `data/companies.json`
 
 **Interfaces:**
-- Consumes: the live Airtable base (`appGa8FIDwREZf4Vr`, table `tblNtjoCUrKBM9g3Y`) via the Airtable MCP tools.
+- Consumes: the live Airtable base (id redacted, table id redacted) via the Airtable MCP tools.
 - Produces: `data/companies.json` — an array of objects matching the `Company` shape defined in Task 4, minus `hasFactFile` (computed later, not stored).
 
 This task requires an Airtable MCP connection. It's a one-time data migration, not reusable code, so there's no test cycle — verification is a row-count and spot-check instead.
 
 - [ ] **Step 1: Fetch all records**
 
-Call the Airtable MCP tool to list all records in base `appGa8FIDwREZf4Vr`, table `tblNtjoCUrKBM9g3Y`. Note the total record count returned — you'll check against it in Step 3.
+Call the Airtable MCP tool to list all records in the base and table (ids redacted). Note the total record count returned — you'll check against it in Step 3.
 
 - [ ] **Step 2: Transform each record**
 
@@ -1126,8 +1126,8 @@ Old:
 ```
 The tracker is an Airtable base, not a spreadsheet.
 
-* Base: "Apprenticeship Tracker" — `appGa8FIDwREZf4Vr`
-* Table: "Table 1" — `tblNtjoCUrKBM9g3Y`
+* Base: "Apprenticeship Tracker" (id redacted)
+* Table: "Table 1" (id redacted)
 
 Use the Airtable MCP tools to read and write. Do not go through Google Sheets.
 ```
@@ -1191,8 +1191,8 @@ Old:
 ```
 **Step 6 - Update**
 * Once the user is happy with the end result, add the file to the attachment column in the Airtable Apprenticeship tracker
-* Base: "Apprenticeship Tracker" — `appGa8FIDwREZf4Vr`
-* Table: "Table 1" — `tblNtjoCUrKBM9g3Y`
+* Base: "Apprenticeship Tracker" (id redacted)
+* Table: "Table 1" (id redacted)
 * push and commit the file to git after
 ```
 

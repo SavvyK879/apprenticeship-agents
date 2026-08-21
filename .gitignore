@@ -30,9 +30,8 @@ venv/
 .superpowers/
 
 # Personal CV content (never public)
-/cv/master-cv.md
-output/*/*-cv.md
-output/*/*-cv.docx
+/cv/
+output/**/*-cv.*
 
 # Personal tracker data (never public)
-/data/my-tracker.local.json
+/data/*.local.json
