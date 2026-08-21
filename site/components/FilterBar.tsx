@@ -13,12 +13,14 @@ export function FilterBar({
     <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
       <input
         type="text"
+        aria-label="Search company or role"
         placeholder="Search company or role"
         value={criteria.query}
         onChange={(e) => onChange({ ...criteria, query: e.target.value })}
       />
       <input
         type="text"
+        aria-label="Location"
         placeholder="Location"
         value={criteria.location}
         onChange={(e) => onChange({ ...criteria, location: e.target.value })}
