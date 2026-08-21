@@ -1,0 +1,9 @@
+{
+  "name": "personal-tracker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "node --test lib/*.test.mjs"
+  }
+}
