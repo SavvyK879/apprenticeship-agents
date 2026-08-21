@@ -111,3 +111,57 @@ test('GET /api/personal against a corrupt personal file responds 500 and leaves 
     assert.equal(onDisk, corrupt);
   });
 });
+
+test('POST /api/personal with a null body responds 400 and leaves the server alive', async () => {
+  await withServer(async (base) => {
+    const postRes = await fetch(`${base}/api/personal`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: 'null',
+    });
+    assert.equal(postRes.status, 400);
+
+    // The server must still be alive and answering requests after a null body.
+    const getRes = await fetch(`${base}/api/personal`);
+    assert.equal(getRes.status, 200);
+    const body = await getRes.json();
+    assert.deepEqual(body, {});
+  });
+});
+
+test('POST /api/personal with a JSON array body responds 400 and leaves the server alive', async () => {
+  await withServer(async (base) => {
+    const postRes = await fetch(`${base}/api/personal`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: '[1,2,3]',
+    });
+    assert.equal(postRes.status, 400);
+
+    const getRes = await fetch(`${base}/api/personal`);
+    assert.equal(getRes.status, 200);
+    const body = await getRes.json();
+    assert.deepEqual(body, {});
+  });
+});
+
+test('POST /api/personal against a corrupt personal file responds 500, survives, and leaves the file untouched', async () => {
+  await withServer(async (base, personalPath) => {
+    const corrupt = '{ broken';
+    fs.writeFileSync(personalPath, corrupt);
+
+    const postRes = await fetch(`${base}/api/personal`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: 'acme', entry: { currentStage: 'Applied' } }),
+    });
+    assert.equal(postRes.status, 500);
+
+    const onDisk = fs.readFileSync(personalPath, 'utf-8');
+    assert.equal(onDisk, corrupt);
+
+    // The server must still be alive after this failure too.
+    const getRes = await fetch(`${base}/api/companies`);
+    assert.equal(getRes.status, 200);
+  });
+});

@@ -62,16 +62,20 @@ export function createServer({ companiesPath, personalPath }) {
       let body = '';
       req.on('data', (chunk) => { body += chunk; });
       req.on('end', () => {
-        let parsed;
+        let id, entry;
         try {
-          parsed = JSON.parse(body);
+          const parsed = JSON.parse(body);
+          if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) {
+            sendJson(res, 400, { error: 'Request body must be a JSON object' });
+            return;
+          }
+          ({ id, entry } = parsed);
         } catch {
           sendJson(res, 400, { error: 'Request body is not valid JSON' });
           return;
         }
 
-        const { id, entry } = parsed;
-        if (typeof id !== 'string' || !id || typeof entry !== 'object' || entry === null) {
+        if (typeof id !== 'string' || !id || typeof entry !== 'object' || entry === null || Array.isArray(entry)) {
           sendJson(res, 400, { error: 'id and entry are required' });
           return;
         }
