@@ -63,10 +63,38 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 * Tell the user the fact file is ready and where to find it.
 * If the user gives feedback, edit the same file in place. Never create a second, near-duplicate file for the same company.
 
-**Step 6 - Update**
-* Once the user is happy with the end result, add the file to the attachment column in the Airtable Apprenticeship tracker
-* Base and table IDs: see `/workflows/airtable-ids.local.md` (gitignored)
-* push and commit the file to git after
+**Step 6 - Attach to the tracker**
+
+Only start this once the user has confirmed in Step 5 that they are happy with the fact file. Never attach a draft.
+
+The base, table and Attachments field IDs are in `/workflows/airtable-ids.local.md`, which is gitignored so they stay out of this public repository. Read that file to get them.
+
+Find the record first. Search the Company field for the company name. If no record exists, say so and stop. The tracker row has to exist before a fact file can hang off it, and creating that row is the other workflow's job.
+
+Airtable will not take a file upload through the MCP tools. It takes a URL and fetches the file itself, so the file has to be publicly reachable at the moment Airtable fetches it.
+
+*Preferred path, via the GitHub raw URL*
+
+This repository is public, so a raw GitHub link resolves and no third-party upload is needed. The file has to be pushed before Airtable can fetch it, so the commit comes first here.
+
+1. Commit and push the fact file to git.
+2. Build the raw URL: `https://raw.githubusercontent.com/SavvyK879/apprenticeship-agents/main/output/{company}/{company}-fact-file.md`
+3. Fetch that URL yourself once to confirm it resolves. A push can take a few seconds to show up, and Airtable will not retry.
+4. Write it to the Attachments field as `[{"url": "<that URL>", "filename": "{company}-fact-file.md"}]`.
+5. Read the record back and check the attachment landed. Airtable copies the file into its own storage, so the link is only a courier. Later edits to the file in git will not update the copy in Airtable, so re-attach if the fact file changes.
+
+*Fallback, via Google Drive*
+
+Use this only if the repository has been made private again, so the raw URL no longer resolves.
+
+1. Upload `/output/{company}/{company}-fact-file.md` to Google Drive.
+2. Turn on link sharing so anyone with the link can view.
+3. Build the direct download URL: `https://drive.google.com/uc?export=download&id={fileId}`.
+4. Attach it the same way, then confirm it landed and delete the Drive copy.
+
+*Fallback, manual*
+
+If the attachment fails either way, stop after one retry. Tell the user the full file path and ask them to drag it into the Attachments cell. Say which step failed so they know what broke.
 
 ## File Naming
 
