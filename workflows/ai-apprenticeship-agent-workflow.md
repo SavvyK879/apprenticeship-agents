@@ -11,13 +11,13 @@ The goal is to build up my apprenticeship tracker in preparation for the next ac
 
 ## Where The Tracker Lives
 
-The tracker is `/data/companies.json`, a git-tracked JSON array — not Airtable, not a spreadsheet.
+The tracker is `/data/companies.json`, a git-tracked JSON array, not Airtable or a spreadsheet.
 
 Read and write it directly as a file. Each entry has: id, company, role, location, length,
-trainingProvider, grades, salary, openDate, closeDate, dateNotes, link. There is no
-attachments field and no Current Stage field in this file — those are either handled
-automatically (fact file presence, computed by the site) or live in the user's private,
-gitignored `/data/my-tracker.local.json`, which this workflow never touches.
+trainingProvider, grades, salary, openDate, closeDate, dateNotes, link. Attachments and
+stage tracking are not stored here: fact file presence is detected automatically at build
+time, and stage tracking lives in the user's private, gitignored `/data/my-tracker.local.json`,
+which this workflow never touches.
 
 ## Table Schema
 
@@ -28,17 +28,17 @@ Fields in the JSON entries, in order. Match them exactly when writing.
 | id | string | Agent |
 | company | string | Agent |
 | role | string | Agent |
-| openDate | date string | Agent |
-| closeDate | date string | Agent |
-| dateNotes | string | Agent |
-| link | URL string | Agent |
 | location | string | Agent |
 | length | string | Agent |
 | trainingProvider | string | Agent |
 | grades | string | Agent |
 | salary | string | Agent |
+| openDate | date string | Agent |
+| closeDate | date string | Agent |
+| dateNotes | string | Agent |
+| link | URL string | Agent |
 
-The `id` field is a lowercase, hyphenated slug derived from the company name. Strip accents, drop `&`, remove non-letter/digit/space characters, and collapse spaces to single hyphens. Examples: `Legal & General` becomes `legal-general`; `E.ON` becomes `eon`. This slug is used as the folder name in `/output/{id}/` for the company's fact file.
+The `id` field is a hyphenated slug derived from the company name. Generate it by: (1) lowercase the name, (2) strip accents, (3) drop `&`, (4) remove non-letter/digit/space characters, (5) collapse spaces to single hyphens. Examples: `Legal & General` becomes `legal-general`; `E.ON` becomes `eon`. This slug is used as the folder name in `/output/{id}/` for the company's fact file.
 
 openDate and closeDate are written as `YYYY-MM-DD` strings in the JSON.
 
@@ -124,5 +124,5 @@ Leave dateNotes empty when both dates are exact and published.
 
 **Step 6 - Finalising**
 
-* Check all details. If there's significant evidence that some data in the row is wrong, correct it.
+* Check all details. If there's significant evidence that some data in the entry is wrong, correct it.
 * Repeat the process for the next company if there is one, or wait for a new one.

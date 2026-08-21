@@ -11,7 +11,7 @@ Given a company that already has a fact file, produce a CV tailored to that comp
 5. Every section present in the master CV keeps at least one item in the tailored version. Never trim a section to zero.
 6. Target max 2 pages. Enforced at the docx stage (Step 7).
 7. Manual trigger only — the user asks per company, any time after that company's fact file exists.
-8. This workflow only reads the fact file and master CV. It never writes to them, and never touches the Airtable tracker.
+8. This workflow only reads the fact file and master CV. It never writes to them, and never touches the tracker data (`/data/companies.json` or `/data/my-tracker.local.json`).
 9. Before the draft is shown to the user, an independent subagent verifies every claim in it traces back to the master CV. Anything it can't verify gets fixed before the user sees it.
 
 ## Step-By-Step Process

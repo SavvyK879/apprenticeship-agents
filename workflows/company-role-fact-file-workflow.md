@@ -65,12 +65,12 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 
 **Step 6 - Update**
 * Once the user is happy with the end result, push and commit the fact file to git.
-* Nothing else to update — the site detects the fact file automatically from its location
+* Nothing else to update. The site detects the fact file automatically from its location
   on disk (`/output/{company}/{company}-fact-file.md`) at build time.
 
 ## File Naming
 
-* Lowercase, hyphens instead of spaces, no special characters, per workspace file naming rules.
+* The `{company}` folder uses the same slug as the entry's `id` field in companies.json. See `ai-apprenticeship-agent-workflow.md` for the slug generation rule.
 * Each company has its own folder: `/output/{company}/`. Create it only when the first file for that company is written — never pre-create folders for companies without one. Anything else company-specific written later goes in the same folder.
 * File pattern: `/output/{company}/{company}-fact-file.md`. The role is not in the file name — only one role is tracked per company. The role itself is named inside the file, in the Role Requirements section.
 * Example: `/output/revolut/revolut-fact-file.md`
