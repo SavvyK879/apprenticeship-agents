@@ -9,7 +9,7 @@ company name and does the deep research. Nothing else in the workspace finds the
 1. Never fabricate companies, roles, dates or links.
 2. A company only qualifies if a real, findable listing or scheme page exists.
 3. The role filter and the qualification rule must stay identical to `ai-apprenticeship-agent-workflow.md` Step 3. If one changes, change both.
-4. Do not read companies.json except to seed the cache, or when a re-sync is asked for.
+4. Do not read Airtable except to seed the cache, or when a re-sync is asked for.
 5. Keep cache entries short. A few words, not sentences.
 
 ## The Cache File
@@ -40,8 +40,8 @@ Lives at `/output/apprenticeship-search-log.md`. Four tables.
 
 Rules that govern it:
 
-* If the file does not exist, read companies.json once to build the In Tracker table from its company and role fields, say that this was done, and do not read companies.json again unless asked.
-* Append to In Tracker immediately after each successful write to companies.json. This is what allows the cache to be trusted without re-reading companies.json.
+* If the file does not exist, do one full Airtable read of the Company and Role fields to build the In Tracker table, say that this was done, and do not read Airtable again unless asked.
+* Append to In Tracker immediately after each successful Airtable write. This is what allows the cache to be trusted without re-reading Airtable.
 * A Rejected row is only binding for a month from its Date checked. Once it is a month or more old, screen the company again and overwrite the row with the new date and reason. Never let the Rejected table become a permanent blocklist.
 * A Revisit row is binding until its Revisit from date. On or after that date, screen the company again and delete the Revisit row. Revisit is for a company that passes the role filter but whose timing is wrong, not one that failed it.
 * An Unverified row is binding for one week from its Date checked. Unverified is for a company you could not finish screening, not one that failed. Use it when the careers page was unreachable, the listing was behind a login, or the scheme exists at the right level but the software pathway could not be confirmed either way. A confirmed "they do not run one" goes to Rejected, not here. On or after the Recheck from date, screen again and delete the Unverified row.
@@ -49,26 +49,27 @@ Rules that govern it:
 
 ### Revisit row detail
 
-The Revisit table alone does not hold enough to rebuild a companies.json entry. Every Revisit row also
+The Revisit table alone does not hold enough to rebuild an Airtable row. Every Revisit row also
 gets a subsection below the table, so the research is not lost:
 
 ```markdown
 ### {Company} row detail
 
-Kept so the companies.json entry can be rebuilt. Removed from the tracker on {YYYY-MM-DD}.
+Kept so the Airtable row can be rebuilt. Removed from the tracker on {YYYY-MM-DD}.
 
-* role:
-* location:
-* length:
-* trainingProvider:
-* grades:
-* salary:
-* openDate / closeDate / dateNotes:
+* Role:
+* Location:
+* Length:
+* Training Provider:
+* Grades:
+* Salary:
+* Open Date / Close Date / Date Notes:
+* Current Stage:
 
 {One short paragraph on why the Revisit from date was chosen and what to check when it arrives.}
 ```
 
-Leave out any field that was blank in companies.json. Delete the whole subsection when its Revisit
+Leave out any field that was blank in Airtable. Delete the whole subsection when its Revisit
 row is deleted.
 
 ## Step-By-Step Process
@@ -81,8 +82,8 @@ row is deleted.
 **Step 2 - Load the cache**
 
 * Read `/output/apprenticeship-search-log.md`.
-* If it does not exist, seed the In Tracker table from one full companies.json read, then say that you did so.
-* Do not read companies.json again during this run.
+* If it does not exist, seed the In Tracker table from one full Airtable read, then say that you did so.
+* Do not read Airtable again during this run.
 
 **Step 3 - Discover candidates**
 
@@ -144,18 +145,18 @@ Then record the outcome:
 
 * Run `ai-apprenticeship-agent-workflow.md` for each shortlisted company, one at a time. Do not pause for approval.
 * That workflow runs its own duplicate check in its Step 2. That check still applies.
-* After each successful write to companies.json, append the company to the In Tracker table.
+* After each successful Airtable write, append the company to the In Tracker table.
 * Finish with counts: added, skipped as duplicates, rejected.
 
 ## Manual Overrides
 
-* **Re-sync the cache.** One full companies.json read rebuilds the In Tracker table. Never touches Revisit or Rejected.
+* **Re-sync the cache.** One full Airtable read rebuilds the In Tracker table. Never touches Revisit or Rejected.
 * **Name a company directly.** Forces a re-check even if the company was rejected within the last month, or sits in Revisit or Unverified with a future date. This is the escape hatch for anything that cannot wait.
-* **Park a company.** Moves it out of the tracker into Revisit with a date to come back on. Write its row detail subsection before deleting the companies.json entry, so the entry can be rebuilt.
+* **Park a company.** Moves it out of the tracker into Revisit with a date to come back on. Write its row detail subsection before deleting the Airtable row, so the row can be rebuilt.
 
 ## Where Things Live
 
-* Tracker file: `/data/companies.json`
+* Tracker base and table IDs: see `/workflows/airtable-ids.local.md` (gitignored)
 * Cache file: `/output/apprenticeship-search-log.md`
 * This file: `/workflows/apprenticeship-company-discovery-workflow.md`
 

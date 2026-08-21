@@ -35,3 +35,6 @@ output/**/*-cv.*
 
 # Personal tracker data (never public)
 /data/*.local.json
+
+# Airtable identifiers (private, keep out of the public repo)
+*.local.md
