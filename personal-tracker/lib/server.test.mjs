@@ -69,3 +69,45 @@ test('POST /api/personal writes an entry, and it is readable afterwards', async 
     assert.deepEqual(onDisk, { acme: entry });
   });
 });
+
+test('POST /api/personal with malformed JSON body responds 400 and leaves the server alive', async () => {
+  await withServer(async (base) => {
+    const postRes = await fetch(`${base}/api/personal`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: 'not json {{{',
+    });
+    assert.equal(postRes.status, 400);
+
+    // The server must still be alive and answering requests after a malformed body.
+    const getRes = await fetch(`${base}/api/personal`);
+    assert.equal(getRes.status, 200);
+    const body = await getRes.json();
+    assert.deepEqual(body, {});
+  });
+});
+
+test('POST /api/personal with missing id/entry responds 400 and writes nothing', async () => {
+  await withServer(async (base, personalPath) => {
+    const postRes = await fetch(`${base}/api/personal`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({}),
+    });
+    assert.equal(postRes.status, 400);
+    assert.equal(fs.existsSync(personalPath), false);
+  });
+});
+
+test('GET /api/personal against a corrupt personal file responds 500 and leaves the file untouched', async () => {
+  await withServer(async (base, personalPath) => {
+    const corrupt = '{ broken';
+    fs.writeFileSync(personalPath, corrupt);
+
+    const res = await fetch(`${base}/api/personal`);
+    assert.equal(res.status, 500);
+
+    const onDisk = fs.readFileSync(personalPath, 'utf-8');
+    assert.equal(onDisk, corrupt);
+  });
+});
