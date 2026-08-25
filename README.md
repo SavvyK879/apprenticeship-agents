@@ -7,6 +7,20 @@ These are not scripts you run. They are instruction files written for a coding a
 Code. You point the agent at a workflow, give it a company name, and it does the research and the
 writing.
 
+## The tracker
+
+The apprenticeships these workflows have found so far are viewable here, read only:
+
+**https://airtable.com/appGa8FIDwREZf4Vr/shrV40PTrr4Zpzj1y**
+
+Around 78 UK software and AI engineering apprenticeships, with role, location, length, training
+provider, grades, salary, opening and closing dates, and a link to each listing. It is a live view,
+so it updates as the workflows add to it.
+
+Check any deadline against the employer's own page before relying on it. Dates change, listings get
+pulled, and some entries are estimated from a previous cycle rather than published for this one. The
+Date Notes column says which is which.
+
 ## What each workflow does
 
 **`workflows/apprenticeship-company-discovery-workflow.md`**
