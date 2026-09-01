@@ -9,6 +9,11 @@ level, and several name a programme whose wrong pathway would fail the role filt
 
 ## Roles that could not be confirmed to exist
 
+**Resolved 2026-09-01.** All four were removed from the Airtable tracker and filed in
+`apprenticeship-search-log.md`: Stantec, Mace and Mondelez to Rejected; Marston Holdings to
+Unverified, because its own page says a Software Developer apprenticeship is coming and the level is
+not stated, so it is not a confirmed fail.
+
 | Company | Tracker role | What the employer actually runs |
 | --- | --- | --- |
 | Stantec | Digital and Technology Solutions Degree Apprenticeship | Civil Engineer, Mechanical/Electrical Engineer, Level 4 Digital Designer (CAD). No DTS or software route found. |
@@ -20,6 +25,8 @@ These four should be re-screened against the role filter before they are treated
 the four are construction, engineering or FMCG employers, which is where this failure concentrates.
 
 ## Recorded wrongly, real programme underneath
+
+**Resolved 2026-09-01.** Both renamed in the tracker, with links added.
 
 **Shell** — tracker says "Digital Leadership Accelerator Programme". No Shell programme by that name
 could be found. Shell's actual route is the **Digital and Technology Solutions Degree Apprenticeship**:
@@ -53,15 +60,24 @@ requiring 4 Bs at Scottish Highers — the exact disqualifier named in the workf
 Bristol and Salford. One route's academic element is delivered by a Scottish university and is
 restricted to candidates resident in Scotland. The right listing needs picking deliberately.
 
-## Time-critical
+## JBA Consulting — dates re-based
 
 **JBA Consulting** is the strongest match in the whole batch — Level 6 DTS Software Engineer pathway,
 Skipton, Peterborough and Wallingford, studying with Nottingham Trent or QA/Roehampton, building
 software for asset management, hydrological modelling and geospatial data.
 
-Its stated application window was **by the end of August 2026**. That has passed. The tracker has it
-opening 2026-11-01 and closing 2027-03-03, which is wrong in both directions. Worth contacting them
-directly to ask whether the window is genuinely shut.
+An earlier draft of this audit read "by the end of August 2026" as the application deadline. It is
+not — that is the eligibility cutoff, the date by which an applicant must be 18 and hold the
+qualifications, i.e. the start date. The actual 2026 cycle opened **2 February 2026**, closed
+**18 March 2026**, ran interviews 16 March to 2 April, and starts September 2026.
+
+That intake starts before an A level student finishing in summer 2027 could take it, so the relevant
+cycle is the next one. JBA's own page confirms a 2027 window is coming and offers a register-interest
+form, with no dates published yet.
+
+Tracker updated to the 2027 equivalents, estimated from the 2026 cycle: open 2027-02-02, close
+2027-03-18. Previously recorded as 2026-11-01 to 2027-03-03, where the open date was wrong by three
+months.
 
 ## Confirmed real and correctly described
 
