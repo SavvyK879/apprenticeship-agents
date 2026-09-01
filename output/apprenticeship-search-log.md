@@ -66,7 +66,6 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Neptune North | Digital & Technology Solutions Degree Apprenticeship (Site Reliability Engineering) | 2026-08-14 |
 | Network Rail | Level 6 Machine Learning (AI) Engineering | 2026-08-11 |
 | PA Consulting | Digital Apprentice (Software Development) | 2026-08-11 |
-| PwC | Flying Start Technology Degree Apprenticeship (Level 6) | 2026-09-01 |
 | QinetiQ | Software Engineering Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | Renishaw | Software Engineer Apprentice (Level 6 DTS Professional) | 2026-08-14 |
 | Roke | Degree Apprentice - Software Engineer (Digital & Technology Solutions) | 2026-08-14 |
@@ -99,6 +98,7 @@ screened again and the row is deleted, along with its row detail subsection.
 | --- | --- | --- | --- | --- |
 | Accenture | Digital & Technology Solutions Degree Apprenticeship | 2026-08-14 | Only confirmed 2027 intake starts April 2027, too early for an A level finish in summer 2027. That intake's deadline (15 Jul 2026) has already passed. Accenture's 2026/27 start dates run Sept 2026 to Aug 2027, so an autumn 2027 start falls in the following cycle. | 2027-03 |
 | HMRC | Software Developer & Engineer Apprenticeship (Level 4) | 2026-08-14 | Only confirmed intake starts February, not September. Next Feb cycle (2027) is too early for an A level finish in summer 2027. | 2027-09 |
+| PwC | Flying Start Technology Degree Apprenticeship (Level 6) | 2026-09-01 | Every source describing a PwC level 6 technology degree apprenticeship is dated 2018 to 2022. Nothing current confirms the scheme still runs. | 2026-10 |
 | Unisys | 4 Year Technical Degree Apprentice (Level 6 DTS Professional) | 2026-08-14 | Only confirmed vacancy started 1 October 2026, no evidence of a later intake. | 2027-03 |
 
 ### Accenture row detail
@@ -140,6 +140,31 @@ Kept so the Airtable row can be rebuilt. Removed from the tracker on 2026-08-14.
 September (2026 cycle closed 9 Jan, started Feb). That's too early for an A level finish in
 summer 2027. If this is an annual pattern, applications for the next intake (start Feb 2028,
 which would work) likely open around autumn 2027 — check from September 2027.
+
+### PwC row detail
+
+Kept so the Airtable row can be rebuilt. Removed from the tracker on 2026-09-01.
+
+* Role: Flying Start Technology Degree Apprenticeship (Level 6)
+* Location: Birmingham, Leeds, Belfast, London
+* Length: 4 years
+* Training Provider: Univ of Birmingham, Leeds, Queen's Belfast, Queen Mary London
+* Grades: 112 UCAS (BBC), GCSE Maths & English 4+
+* Salary: Salaried on placements, figure not published
+* Open Date / Close Date / Date Notes: Open 2026-09-01 (UCAS 2027 entry). Close 2027-01-13 (UCAS deadline). Both inferred, not published by PwC
+* Current Stage: Not applied
+* Link: https://www.pwc.co.uk/careers/early-careers/our-programmes/flying-start-degrees/technology.html
+
+**October 2026.** The 2026-08-17 screen rejected PwC on the wrong grounds, saying the only
+route was PwC Channel Islands. The mainland routes are real, but the evidence that they still
+run is stale. The Ada Manchester partnership is documented in 2018 and 2022 sources and PwC no
+longer appears on Ada's own partner list. Birmingham now describes G401 as an ordinary Computer
+Science with a Year in Industry degree and mentions PwC only as a graduate employer. PwC's own
+technology page and entry level page both block automated reads, and search summaries of the
+entry level page say applications are closed for a September 2027 start. The Autumn 2027 Flying
+Start listings that are live are the accounting route, not technology. Check again from October
+2026, when PwC's autumn cycle would normally open, and treat a live listing on PwC's own site as
+the only thing that settles it.
 
 ### Unisys row detail
 
