@@ -39,7 +39,6 @@ August wrote to Airtable without appending here, which is the rule the cache dep
 | Defence Equipment & Support | Digital Technology Degree Apprenticeship (Software Engineering specialism) | 2026-08-14 |
 | Deloitte | Technology BrightStart Higher Apprenticeship (Level 6) | 2026-08-11 |
 | Deutsche Bank | Technology, Data & Innovation Apprenticeship Programme (Level 6) | 2026-08-11 |
-| Direct Line Group | Software Engineering Apprentice (Level 6 Digital & Technology Solutions) | 2026-08-31 |
 | Dstl | Software Engineer Degree Apprenticeship (Level 6 DTS / BEng Software Engineering) | 2026-08-25 |
 | DWP Digital | Digital & Technology Solutions Degree Apprenticeship (Level 6, Software Engineer pathway) | 2026-08-14 |
 | E.ON | Digital and Technology Solutions Degree Apprenticeship | 2026-08-11 |
@@ -79,7 +78,7 @@ August wrote to Airtable without appending here, which is the rule the cache dep
 | PA Consulting | Digital Apprentice (Software Development) | 2026-08-11 |
 | QinetiQ | Software Engineering Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | Renishaw | Software Engineer Apprentice (Level 6 DTS Professional) | 2026-08-14 |
-| Roche | Diagnostics IT Apprentice - Digital & Technology Solutions Professional (Software Engineer, Level 6) | 2026-08-31 |
+| Roche | Diagnostics IT Apprentice - Digital and Technology Solutions Professional (Software Engineer, Level 6 BSc Hons) | 2026-08-31 |
 | Roke | Degree Apprentice - Software Engineer (Digital & Technology Solutions) | 2026-08-14 |
 | Rolls-Royce | Software Engineering Degree Apprenticeship (Level 6) | 2026-08-11 |
 | Royal Mail | Software Engineer Apprentice (Level 6 Digital & Technology Solutions) | 2026-08-14 |
@@ -98,7 +97,7 @@ August wrote to Airtable without appending here, which is the rule the cache dep
 | Vigence | Digital Technology Software Engineering Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | VodafoneThree | Software Apprentice (Level 6 DTS, Software Engineering) | 2026-08-14 |
 | West Sussex County Council | Digital and Technology Solutions Degree Apprentice (Level 6) | 2026-08-25 |
-| WTW | Level 6 BSc Digital & Technology Solutions Degree Apprenticeship | 2026-08-31 |
+| WTW | Software Developer Apprenticeship (Level 4) | 2026-08-31 |
 | Zurich UK | Data & Technology Degree Apprenticeship (Level 6 BSc DTS) | 2026-08-14 |
 
 ## Revisit
@@ -183,6 +182,7 @@ and the row deleted.
 
 | Company | Date checked | What blocked the check | Recheck from |
 | --- | --- | --- | --- |
+| Direct Line Group | 2026-09-01 | Level is ambiguous - some listings are Level 4 Higher, a Level 6 DTS is also referenced, and neither could be confirmed as current. Recorded location was London but actual sites are Bristol, Bromley, Glasgow, Ipswich and Leeds. Only published listing found is from 2023. Removed from the tracker pending a proper re-screen | 2026-09-08 |
 | Emmaus Catholic Multi Academy | 2026-08-14 | Level 6 IT Engineer Degree Apprentice exists, could not tell whether it is software or infrastructure | 2026-08-21 |
 | Nationwide Building Society | 2026-08-14 | Tech apprenticeships exist via Swindon IoT, but the level 6 software route could not be confirmed either way | 2026-08-21 |
 | Ordnance Survey | 2026-08-14 | Runs apprenticeships at levels 3 to 7, but no route list published to check against | 2026-08-21 |

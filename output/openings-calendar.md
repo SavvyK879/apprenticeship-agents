@@ -1,6 +1,6 @@
 # Openings Calendar
 
-Built 2026-09-01 from the Airtable tracker (90 records). Ordered by Open Date, earliest first.
+Built 2026-09-01 from the Airtable tracker (89 records). Ordered by Open Date, earliest first.
 
 Every row carries the marker now stored at the front of its Date Notes:
 
@@ -58,7 +58,7 @@ close means a late check costs the application.
 | 1 Oct | `[ESTIMATE]` | BBC | Software Engineering Degree Apprenticeship (Level 6 DTSP) |
 | 1 Nov | `[ESTIMATE]` | Amazon | Software development engineer apprentice |
 | 1 Nov | `[ESTIMATE]` | AtkinsRéalis | DTS (Degree) Apprentice – Software engineering |
-| 1 Dec | `[CONFIRMED month]` | Roche | Diagnostics IT Apprentice (Level 6) — **pathway may be wrong, see below** |
+| 1 Dec | `[CONFIRMED month]` | Roche | Diagnostics IT Apprentice (Level 6 BSc DTS, Software Engineer) — Burgess Hill, **July–Aug start** |
 | 1 Dec | `[ESTIMATE]` | PA Consulting | Digital Apprentice (Software Development) |
 | 1 Dec | `[ESTIMATE]` | Renishaw | Software Engineer Apprentice (Level 6 DTS Professional) |
 | 1 Dec | `[ESTIMATE]` | Rolls-Royce | Software Engineering Degree Apprenticeship (Level 6) |
@@ -112,26 +112,34 @@ The heaviest stretch. Twenty-three openings in nine weeks.
 These will not appear in any date sort and are the easiest to miss:
 
 Roke, GSK, Sharp UK, Civil Service (TechTrack), Ford, BP, Defence Equipment & Support, WTW,
-Sellafield, DWP Digital, Bank of England, Thales UK, Royal Mail, Experian, AESSEAL, Direct Line
-Group, GCHQ, Arm, Vigence, Mercedes-Benz, The Sheffield College, CGI, Frazer-Nash Consultancy, Arup,
-Citi, Neptune North, Auto Trader, Lockheed Martin UK, VE3 Global.
+Sellafield, DWP Digital, Bank of England, Thales UK, Royal Mail, Experian, AESSEAL, GCHQ, Arm,
+Vigence, Mercedes-Benz, The Sheffield College, CGI, Frazer-Nash Consultancy, Arup, Citi, Neptune
+North, Auto Trader, Lockheed Martin UK, VE3 Global.
 
 Several are rolling (GSK, CGI, Citi) so an open date is meaningless for them. The rest simply have
 not published one. Ford, Auto Trader and Mercedes-Benz are strong role matches sitting in this list.
 
 ## Already closed
 
+**WTW** — a Level 4 Software Developer listing indicated as the 2027 intake closed **31 Aug 2026**,
+one day before this calendar was built. Worth contacting them to ask whether it is genuinely shut.
+
 **Leeds City Council** — closed 31 Aug 2026. The 2026 Level 4 vacancy was posted 22 June with
 shortlisting in August. Next opening expected around June 2027 on that pattern.
 
 ## Flags carried over from the audits
 
-* **Roche** — recorded as a Software Engineer pathway, but the confirmed Roche route is the **IT
-  Consulting** specialism. Re-screen before applying.
-* **WTW** — the only Level 6 DTS listing found is Manchester, closing 30 Nov **2024** for a Sept 2025
-  start. Two years stale, and WTW's current software route may be Level 4.
-* **Direct Line Group** — level ambiguous (Level 4 vs Level 6), recorded location wrong, dates from a
-  2023 cycle.
+* **Roche** — resolved 2026-09-01. The Software Engineer route is real and the recorded name was
+  right; an earlier note claiming it was really IT Consulting was wrong (that is a separate Welwyn
+  route). Corrected to Burgess Hill, opens each December, starts **July–August, not September**.
+  Caveat: the day job is installing, servicing and troubleshooting laboratory information systems
+  with a 24/7 on-call rota — closer to IT support than software development, despite the degree title.
+* **WTW** — resolved 2026-09-01. The Level 6 DTS route is stale and gone; the live route is a
+  **Level 4 Software Developer Apprenticeship** (Ipswich and Redhill, .NET/C#/Azure). A Level 4
+  listing indicated as the 2027 intake **closed 31 August 2026, one day ago**. The 2025 cycle closed
+  17 Jan instead, so the pattern is inconsistent. Contact WTW directly.
+* **Direct Line Group** — removed from the tracker 2026-09-01 and moved to Unverified in the search
+  log, recheck from 2026-09-08. Level ambiguous, location wrong, only listing found is from 2023.
 * **JP Morgan** — software engineering is London only. Bournemouth is cyber and infrastructure;
   Glasgow is a Scottish Graduate Apprenticeship needing Highers.
 * **BBC** — use the Salford, Bristol, London or Cardiff listings. The Scottish-delivered route is
@@ -147,5 +155,9 @@ shortlisting in August. Next opening expected around June 2027 on that pattern.
 1. **Apply to MI5 & MI6.** It is open today and the only usable live opening.
 2. **Check Deloitte's job search by hand** for a 2027 Technology BrightStart listing. Rolling close.
 3. **Ignore VE3 Global** despite it being open — the September 2026 start makes it unusable.
-4. Register interest with the autumn openers so their real dates arrive by email rather than by
+4. **Contact WTW** to ask whether the Level 4 Software Developer 2027 intake, which closed 31 Aug,
+   is genuinely shut.
+5. Register interest with the autumn openers so their real dates arrive by email rather than by
    estimate: Goldman Sachs, RSM, KPMG, EY, HSBC, MBDA, AtkinsRéalis, TfL, Network Rail, JBA.
+
+A daily reminder fires at 10:00 UK time covering items 1 and 2 until you tell me to stop.
