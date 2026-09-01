@@ -2,6 +2,7 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+~$*
 
 # Editor
 .vscode/
@@ -32,6 +33,8 @@ venv/
 # Personal CV content (never public)
 /cv/
 output/**/*-cv.*
+docs/master-cv.docx
+docs/*-cv.docx
 
 
 # Airtable identifiers (private, keep out of the public repo)
