@@ -8,6 +8,7 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Company | Role | Date added |
 | --- | --- | --- |
 | AESSEAL | Software Engineer Degree Apprentice (Level 6) | 2026-08-14 |
+| American Express | Technology Software Engineering Apprenticeship (Level 4, ASAP) | 2026-09-01 |
 | Airbus | Digital and Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | Amazon | Software development engineer apprentice | 2026-08-11 |
 | Anglian Water | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
@@ -65,12 +66,12 @@ read of the Apprenticeship Tracker on 2026-08-14. Airtable is not read again unl
 | Neptune North | Digital & Technology Solutions Degree Apprenticeship (Site Reliability Engineering) | 2026-08-14 |
 | Network Rail | Level 6 Machine Learning (AI) Engineering | 2026-08-11 |
 | PA Consulting | Digital Apprentice (Software Development) | 2026-08-11 |
+| PwC | Flying Start Technology Degree Apprenticeship (Level 6) | 2026-09-01 |
 | QinetiQ | Software Engineering Degree Apprenticeship (Level 6 DTS) | 2026-08-14 |
 | Renishaw | Software Engineer Apprentice (Level 6 DTS Professional) | 2026-08-14 |
 | Roke | Degree Apprentice - Software Engineer (Digital & Technology Solutions) | 2026-08-14 |
 | Rolls-Royce | Digital & Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | Royal Mail | Software Engineer Apprentice (Level 6 Digital & Technology Solutions) | 2026-08-14 |
-| RSM | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-11 |
 | Santander | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
 | Schroders | Global Technology Apprenticeship Programme (Software Development Engineer) | 2026-08-14 |
 | Sellafield | Digital Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
@@ -174,34 +175,6 @@ and the row deleted.
 | Ordnance Survey | 2026-08-14 | Runs apprenticeships at levels 3 to 7, but no route list published to check against | 2026-08-21 |
 | Raytheon UK | 2026-08-14 | Degree apprenticeships offered, but the route list did not confirm or rule out software engineering | 2026-08-21 |
 | United Utilities | 2026-08-14 | Level 6 apprenticeships confirmed at £21,000, but no software engineering pathway listed | 2026-08-21 |
-| RSM | 2026-09-01 | School leaver programme is 2 years, level 4 then level 7 professional qualifications, not a level 6 degree. Digital pathway names software development but the level 4 standard behind it could not be confirmed as a software route rather than data/consulting | 2026-09-08 |
-
-### RSM row conflict
-
-RSM also has a row in the In Tracker table reading "Digital & Technology Solutions Degree
-Apprenticeship (Level 6)", added 2026-08-11. Re-screened on 2026-09-01 and no evidence for that
-role was found. RSM's own school leaver pages describe a two year programme leading to a level 4
-then level 7 professional qualification, across Audit, Tax, Consulting and Digital. No level 6
-degree apprenticeship and no software engineering standard is published. The Airtable row is
-likely wrong and should be corrected or deleted once the level 4 Digital route is pinned down.
-
-## Awaiting Tracker Write
-
-Screened and passed, but not yet written to Airtable. Move each into In Tracker once its row
-exists. Delete the row from this section at that point.
-
-| Company | Role | Date screened |
-| --- | --- | --- |
-| American Express | Technology Software Engineering Apprenticeship (Level 4, ASAP) | 2026-09-01 |
-| PwC | Technology Degree Apprenticeship (Level 6, software engineering) | 2026-09-01 |
-
-PwC was previously rejected on 2026-08-17 on the basis that the only route was PwC Channel
-Islands. That was wrong. PwC UK runs Level 6 technology degree apprenticeships on the mainland:
-the Flying Start Technology route with Birmingham, Leeds, Queen Mary and Queen's Belfast, and a
-Manchester work-first route with Ada carrying a software engineering specialism. The Rejected row
-has been deleted. Open question is timing, not eligibility: PwC's entry level pages currently
-read as closed for a September 2027 start, so confirm whether the 2027 cycle reopens in autumn
-2026 or has already gone.
 
 ## Rejected
 
@@ -229,6 +202,7 @@ read as closed for a September 2027 start, so confirm whether the 2027 cycle reo
 | Northrop Grumman UK | 2026-08-14 | Early careers is graduate and placement only, no level 6 apprenticeship |
 | Ocado | 2026-08-14 | Only level 6 is data science, no software engineering route |
 | Oracle | 2026-08-14 | No level 6 UK software engineering apprenticeship found |
+| RSM | 2026-09-01 | Tech route exists but is data, technology consulting and technology risk, not software engineering. School leaver programme is 2 years, level 4 then level 7 professional qualifications, not a level 6 degree. Airtable row deleted |
 | Serco | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Severn Trent | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Sky | 2026-08-14 | No tech apprenticeship in current programmes |
