@@ -174,13 +174,40 @@ and the row deleted.
 | Ordnance Survey | 2026-08-14 | Runs apprenticeships at levels 3 to 7, but no route list published to check against | 2026-08-21 |
 | Raytheon UK | 2026-08-14 | Degree apprenticeships offered, but the route list did not confirm or rule out software engineering | 2026-08-21 |
 | United Utilities | 2026-08-14 | Level 6 apprenticeships confirmed at £21,000, but no software engineering pathway listed | 2026-08-21 |
+| RSM | 2026-09-01 | School leaver programme is 2 years, level 4 then level 7 professional qualifications, not a level 6 degree. Digital pathway names software development but the level 4 standard behind it could not be confirmed as a software route rather than data/consulting | 2026-09-08 |
+
+### RSM row conflict
+
+RSM also has a row in the In Tracker table reading "Digital & Technology Solutions Degree
+Apprenticeship (Level 6)", added 2026-08-11. Re-screened on 2026-09-01 and no evidence for that
+role was found. RSM's own school leaver pages describe a two year programme leading to a level 4
+then level 7 professional qualification, across Audit, Tax, Consulting and Digital. No level 6
+degree apprenticeship and no software engineering standard is published. The Airtable row is
+likely wrong and should be corrected or deleted once the level 4 Digital route is pinned down.
+
+## Awaiting Tracker Write
+
+Screened and passed, but not yet written to Airtable. Move each into In Tracker once its row
+exists. Delete the row from this section at that point.
+
+| Company | Role | Date screened |
+| --- | --- | --- |
+| American Express | Technology Software Engineering Apprenticeship (Level 4, ASAP) | 2026-09-01 |
+| PwC | Technology Degree Apprenticeship (Level 6, software engineering) | 2026-09-01 |
+
+PwC was previously rejected on 2026-08-17 on the basis that the only route was PwC Channel
+Islands. That was wrong. PwC UK runs Level 6 technology degree apprenticeships on the mainland:
+the Flying Start Technology route with Birmingham, Leeds, Queen Mary and Queen's Belfast, and a
+Manchester work-first route with Ada carrying a software engineering specialism. The Rejected row
+has been deleted. Open question is timing, not eligibility: PwC's entry level pages currently
+read as closed for a September 2027 start, so confirm whether the 2027 cycle reopens in autumn
+2026 or has already gone.
 
 ## Rejected
 
 | Company | Date checked | Reason |
 | --- | --- | --- |
 | Admiral Group | 2026-08-14 | No level 6 software engineering apprenticeship found |
-| PwC | 2026-08-17 | Only route found is the Digital Degree Apprenticeship (Level 6 DTS w/ University of Exeter) run via PwC Channel Islands, open to Jersey/Guernsey residents only. No separate UK mainland route currently running. Fails the qualification/eligibility rule for an England-based applicant |
 | Atos | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Baker Hughes | 2026-08-14 | Level 6 route is embedded electronic systems engineering, a different standard to DTS |
 | Centrica | 2026-08-14 | Apprenticeships are gas, electrical and metering trades, tech route is a graduate scheme |
@@ -196,6 +223,7 @@ and the row deleted.
 | Leidos UK | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | LSEG | 2026-08-14 | No level 6 software engineering apprenticeship found, engineering route is a graduate programme |
 | Morgan Stanley | 2026-08-14 | Level 6 software route is a Scottish Graduate Apprenticeship, needs Scottish Highers. Fails the qualification rule, not a grades filter |
+| Morrisons | 2026-09-01 | Degree apprenticeships are Retail, Corporate (BSc Retail & Business Management, Bradford), Manufacturing and Food Technology. Other apprenticeships are mechanical/electrical engineering trades. Technology is graduate scheme only, no software route |
 | Nomura | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | NHS England | 2026-08-14 | Digital routes are information systems, governance and data science, no software engineering |
 | Northrop Grumman UK | 2026-08-14 | Early careers is graduate and placement only, no level 6 apprenticeship |
