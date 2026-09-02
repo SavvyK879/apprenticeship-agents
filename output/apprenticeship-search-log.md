@@ -10,6 +10,7 @@ is asked for.
 | Company | Role | Date added |
 | --- | --- | --- |
 | AESSEAL | Software Engineer Degree Apprentice (Level 6) | 2026-08-14 |
+| American Express | Technology Software Engineering Apprenticeship (Level 4, ASAP) | 2026-09-01 |
 | Airbus | Digital and Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | Amazon | Software development engineer apprentice | 2026-08-11 |
 | Anglian Water | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
@@ -85,7 +86,6 @@ is asked for.
 | Roke | Degree Apprentice - Software Engineer (Digital & Technology Solutions) | 2026-08-14 |
 | Rolls-Royce | Digital & Technology Solutions Degree Apprenticeship | 2026-08-11 |
 | Royal Mail | Software Engineer Apprentice (Level 6 Digital & Technology Solutions) | 2026-08-14 |
-| RSM | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-11 |
 | Santander | Digital & Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
 | Schroders | Global Technology Apprenticeship Programme (Software Development Engineer) | 2026-08-14 |
 | Sellafield | Digital Technology Solutions Degree Apprenticeship (Level 6) | 2026-08-14 |
@@ -117,6 +117,7 @@ screened again and the row is deleted, along with its row detail subsection.
 | --- | --- | --- | --- | --- |
 | Accenture | Digital & Technology Solutions Degree Apprenticeship | 2026-08-14 | Only confirmed 2027 intake starts April 2027, too early for an A level finish in summer 2027. That intake's deadline (15 Jul 2026) has already passed. Accenture's 2026/27 start dates run Sept 2026 to Aug 2027, so an autumn 2027 start falls in the following cycle. | 2027-03 |
 | HMRC | Software Developer & Engineer Apprenticeship (Level 4) | 2026-08-14 | Only confirmed intake starts February, not September. Next Feb cycle (2027) is too early for an A level finish in summer 2027. | 2027-09 |
+| PwC | Flying Start Technology Degree Apprenticeship (Level 6) | 2026-09-01 | Every source describing a PwC level 6 technology degree apprenticeship is dated 2018 to 2022. Nothing current confirms the scheme still runs. | 2026-10 |
 | Unisys | 4 Year Technical Degree Apprentice (Level 6 DTS Professional) | 2026-08-14 | Only confirmed vacancy started 1 October 2026, no evidence of a later intake. | 2027-03 |
 
 ### Accenture row detail
@@ -159,6 +160,31 @@ September (2026 cycle closed 9 Jan, started Feb). That's too early for an A leve
 summer 2027. If this is an annual pattern, applications for the next intake (start Feb 2028,
 which would work) likely open around autumn 2027 — check from September 2027.
 
+### PwC row detail
+
+Kept so the Airtable row can be rebuilt. Removed from the tracker on 2026-09-01.
+
+* Role: Flying Start Technology Degree Apprenticeship (Level 6)
+* Location: Birmingham, Leeds, Belfast, London
+* Length: 4 years
+* Training Provider: Univ of Birmingham, Leeds, Queen's Belfast, Queen Mary London
+* Grades: 112 UCAS (BBC), GCSE Maths & English 4+
+* Salary: Salaried on placements, figure not published
+* Open Date / Close Date / Date Notes: Open 2026-09-01 (UCAS 2027 entry). Close 2027-01-13 (UCAS deadline). Both inferred, not published by PwC
+* Current Stage: Not applied
+* Link: https://www.pwc.co.uk/careers/early-careers/our-programmes/flying-start-degrees/technology.html
+
+**October 2026.** The 2026-08-17 screen rejected PwC on the wrong grounds, saying the only
+route was PwC Channel Islands. The mainland routes are real, but the evidence that they still
+run is stale. The Ada Manchester partnership is documented in 2018 and 2022 sources and PwC no
+longer appears on Ada's own partner list. Birmingham now describes G401 as an ordinary Computer
+Science with a Year in Industry degree and mentions PwC only as a graduate employer. PwC's own
+technology page and entry level page both block automated reads, and search summaries of the
+entry level page say applications are closed for a September 2027 start. The Autumn 2027 Flying
+Start listings that are live are the accounting route, not technology. Check again from October
+2026, when PwC's autumn cycle would normally open, and treat a live listing on PwC's own site as
+the only thing that settles it.
+
 ### Unisys row detail
 
 Kept so the Airtable row can be rebuilt. Removed from the tracker on 2026-08-14.
@@ -192,7 +218,6 @@ and the row deleted.
 | DVLA | 2026-08-26 | Data Engineering Degree Apprenticeship referenced second hand, software route neither confirmed nor ruled out | 2026-09-02 |
 | Edwards Vacuum | 2026-08-31 | Digital & Technology Solutions Professional apprenticeship confirmed, but neither its level nor a software pathway could be confirmed | 2026-09-07 |
 | House of Commons (UK Parliament) | 2026-08-26 | Runs level 2-7 apprenticeships incl. Data and Digital via Parliamentary Digital Service, but careers portal blocked automated reads so no software route confirmed | 2026-09-02 |
-| Morrisons | 2026-08-31 | Listed as a DTS employer on Gradcracker, but the only published degree apprenticeship is corporate (wholesale, marketing, property) with no software pathway | 2026-09-07 |
 | National Crime Agency | 2026-08-26 | Level 4 apprenticeships exist (technical officer, business support), no software developer route confirmed either way | 2026-09-02 |
 | Nationwide Building Society | 2026-08-31 | Swindon IoT partnership covers software development, but no software vacancy or route page found to confirm a level 6 or level 4 route | 2026-09-07 |
 | Office for National Statistics | 2026-08-26 | Data apprentices at level 4 (data architecture/engineering) evidenced from 2023 only, current software route unconfirmed | 2026-09-02 |
@@ -234,14 +259,15 @@ and the row deleted.
 | Marks & Spencer | 2026-08-31 | Apprenticeships are data technician/analyst and retail leaders, no software engineering route |
 | Ministry of Justice | 2026-08-31 | No level 6 software engineering apprenticeship found |
 | Morgan Stanley | 2026-08-14 | Level 6 software route is a Scottish Graduate Apprenticeship, needs Scottish Highers. Fails the qualification rule, not a grades filter |
-| NHS England | 2026-08-14 | Digital routes are information systems, governance and data science, no software engineering |
+| Morrisons | 2026-09-01 | Degree apprenticeships are Retail, Corporate (BSc Retail & Business Management, Bradford), Manufacturing and Food Technology. Other apprenticeships are mechanical/electrical engineering trades. Technology is graduate scheme only, no software route |
 | Nomura | 2026-08-14 | No level 6 software engineering apprenticeship found |
+| NHS England | 2026-08-14 | Digital routes are information systems, governance and data science, no software engineering |
 | Northrop Grumman UK | 2026-08-14 | Early careers is graduate and placement only, no level 6 apprenticeship |
 | Ocado | 2026-08-14 | Only level 6 is data science, no software engineering route |
 | Ofcom | 2026-08-26 | Only level 6 degree apprenticeship is Broadcast and Media Systems Engineer, no software engineering route |
 | Oracle | 2026-08-14 | No level 6 UK software engineering apprenticeship found |
 | Ordnance Survey | 2026-08-31 | FOI response lists Data Analyst L4, Coaching L5, Senior Leader L7 and business functions; no software or DTS route |
-| PwC | 2026-08-17 | Only route found is the Digital Degree Apprenticeship (Level 6 DTS w/ University of Exeter) run via PwC Channel Islands, open to Jersey/Guernsey residents only. No separate UK mainland route currently running. Fails the qualification/eligibility rule for an England-based applicant |
+| RSM | 2026-09-01 | Tech route exists but is data, technology consulting and technology risk, not software engineering. School leaver programme is 2 years, level 4 then level 7 professional qualifications, not a level 6 degree. Airtable row deleted |
 | Serco | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Severn Trent | 2026-08-14 | No level 6 software engineering apprenticeship found |
 | Sky | 2026-08-14 | No tech apprenticeship in current programmes |
