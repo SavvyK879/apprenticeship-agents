@@ -214,8 +214,6 @@ and the row deleted.
 
 | Company | Date checked | What blocked the check | Recheck from |
 | --- | --- | --- | --- |
-| Direct Line Group | 2026-09-01 | Level is ambiguous - some listings are Level 4 Higher, a Level 6 DTS is also referenced, and neither could be confirmed as current. Recorded location was London but actual sites are Bristol, Bromley, Glasgow, Ipswich and Leeds. Only published listing found is from 2023. Removed from the tracker pending a proper re-screen | 2026-09-08 |
-| Marston Holdings | 2026-09-01 | Own apprenticeships page lists Software Developer as "coming soon" with no level given, so it cannot be confirmed or ruled out. Removed from the tracker, where it was recorded as the unverifiable "Digital Apprentice" | 2026-09-08 |
 | Nationwide Building Society | 2026-09-02 | Technology Development Programme includes a Software Engineering specialism and runs with Swindon IoT, but it is an 18-month programme whose apprenticeship level is still not published | 2026-09-09 |
 | Raytheon UK | 2026-09-02 | Software engineering is named among its apprentice training areas and degree apprenticeships were said to open early 2026, but no software degree apprenticeship vacancy could be found | 2026-09-09 |
 
@@ -235,6 +233,7 @@ and the row deleted.
 | Costain | 2026-08-14 | Degree apprenticeship is civil and structural engineering, no digital route |
 | Defra | 2026-09-02 | Second check found no published software or digital apprenticeship route; only the digital blog references from 2023, with no live scheme or level |
 | Dell Technologies | 2026-08-14 | UK apprenticeships are sales, marketing, HR and supply chain, no software engineering |
+| Direct Line Group | 2026-09-02 | Absorbed into Aviva: directlinegroupcareers.com now redirects to careers.aviva.co.uk. The historic DLG route was a level 4 Higher software engineering apprenticeship in London, Leeds and Bristol. Aviva is already tracked with a level 6 DTS Software Engineer Apprentice, so a separate row would duplicate the same programme |
 | DVLA | 2026-09-02 | Degree apprentice route is Data Engineering (Azure and Python, 2 years, Swansea); the software engineering route is a graduate trainee programme, not an apprenticeship |
 | DXC Technology | 2026-08-31 | No level 6 UK software engineering apprenticeship found |
 | Dyson | 2026-08-14 | Dyson Institute is now a level 7 MEng engineering degree, no longer an apprenticeship |
@@ -253,6 +252,7 @@ and the row deleted.
 | LSEG | 2026-08-14 | No level 6 software engineering apprenticeship found, engineering route is a graduate programme |
 | Mace | 2026-09-01 | Apprenticeships are project management and construction engineering. No digital or software route found. Was in the tracker as a Level 6 DTS apprenticeship that could not be confirmed to exist |
 | Marks & Spencer | 2026-08-31 | Apprenticeships are data technician/analyst and retail leaders, no software engineering route |
+| Marston Holdings | 2026-09-02 | Own apprenticeships page still lists Software Developer, DevOps Engineer and Cyber Security as coming soon with no level published. Live routes are Data Analyst level 4, Civil Engineer degree level 6, ICT and Data Technician, none of them software. MHT Technology, already tracked separately, is a North Yorkshire company with no stated link to Marston |
 | Ministry of Justice | 2026-08-31 | No level 6 software engineering apprenticeship found |
 | Mondelez | 2026-09-01 | Apprenticeships are Sales, R&D and Supply Chain. Nearest digital route is a People (HR) Technology Solutions degree apprenticeship, which is HR, not software |
 | Morgan Stanley | 2026-08-14 | Level 6 software route is a Scottish Graduate Apprenticeship, needs Scottish Highers. Fails the qualification rule, not a grades filter |
