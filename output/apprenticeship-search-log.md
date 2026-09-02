@@ -113,8 +113,11 @@ screened again and the row is deleted, along with its row detail subsection.
 | Company | Role | Date checked | Why it was pulled | Revisit from |
 | --- | --- | --- | --- | --- |
 | Accenture | Digital & Technology Solutions Degree Apprenticeship | 2026-08-14 | Only confirmed 2027 intake starts April 2027, too early for an A level finish in summer 2027. That intake's deadline (15 Jul 2026) has already passed. Accenture's 2026/27 start dates run Sept 2026 to Aug 2027, so an autumn 2027 start falls in the following cycle. | 2027-03 |
+| Edwards Vacuum | Degree Apprentice Digital Technology Solutions (Level 6) | 2026-09-02 | Level 6 DTS confirmed on their own careers page, but the live Eastbourne vacancy is the Data Analysis specialism starting 7 September 2026, too early for an A level finish in summer 2027. Check whether a software pathway opens for 2027 | 2027-01 |
 | HMRC | Software Developer & Engineer Apprenticeship (Level 4) | 2026-08-14 | Only confirmed intake starts February, not September. Next Feb cycle (2027) is too early for an A level finish in summer 2027. | 2027-09 |
 | PwC | Flying Start Technology Degree Apprenticeship (Level 6) | 2026-09-01 | Every source describing a PwC level 6 technology degree apprenticeship is dated 2018 to 2022. Nothing current confirms the scheme still runs. | 2026-10 |
+| Sage | AI Automation Apprentice (Level 4 AI and Automation Practitioner) | 2026-09-02 | Passes the role filter as AI engineering. Newcastle, 15 months, hybrid, closes 10 September 2026 but starts October 2026, too early for an A level finish in summer 2027 | 2027-03 |
+| Sainsbury's | Software Development apprenticeship (level not published) | 2026-09-02 | Apprenticeships confirmed paused with a relaunch promised in 2026, and Software Development is a listed area. Nothing to apply to yet and no level published | 2026-11-01 |
 | Trafford Metropolitan Borough Council | Software Developer Apprentice (Level 4) | 2026-09-02 | Confirmed real: level 4 software developer standard, 1 year 7 months, Greater Manchester. The advertised vacancy started 17 July 2025 and has closed, with no current cycle open | 2027-04 |
 | Unisys | 4 Year Technical Degree Apprentice (Level 6 DTS Professional) | 2026-08-14 | Only confirmed vacancy started 1 October 2026, no evidence of a later intake. | 2027-03 |
 
@@ -212,12 +215,9 @@ and the row deleted.
 | Company | Date checked | What blocked the check | Recheck from |
 | --- | --- | --- | --- |
 | Direct Line Group | 2026-09-01 | Level is ambiguous - some listings are Level 4 Higher, a Level 6 DTS is also referenced, and neither could be confirmed as current. Recorded location was London but actual sites are Bristol, Bromley, Glasgow, Ipswich and Leeds. Only published listing found is from 2023. Removed from the tracker pending a proper re-screen | 2026-09-08 |
-| Edwards Vacuum | 2026-08-31 | Digital & Technology Solutions Professional apprenticeship confirmed, but neither its level nor a software pathway could be confirmed | 2026-09-07 |
 | Marston Holdings | 2026-09-01 | Own apprenticeships page lists Software Developer as "coming soon" with no level given, so it cannot be confirmed or ruled out. Removed from the tracker, where it was recorded as the unverifiable "Digital Apprentice" | 2026-09-08 |
-| Nationwide Building Society | 2026-08-31 | Swindon IoT partnership covers software development, but no software vacancy or route page found to confirm a level 6 or level 4 route | 2026-09-07 |
-| Raytheon UK | 2026-08-31 | Software engineering named among its apprenticeship areas and degree apprenticeships listed as opening soon, but no software route confirmed | 2026-09-07 |
-| Sage | 2026-08-31 | Apprenticeships confirmed (18 months to 4 years) but no software engineering route confirmed | 2026-09-07 |
-| Sainsbury's | 2026-08-31 | Apprenticeships are paused pending a relaunch, so there is no current route list to check against | 2026-09-07 |
+| Nationwide Building Society | 2026-09-02 | Technology Development Programme includes a Software Engineering specialism and runs with Swindon IoT, but it is an 18-month programme whose apprenticeship level is still not published | 2026-09-09 |
+| Raytheon UK | 2026-09-02 | Software engineering is named among its apprentice training areas and degree apprenticeships were said to open early 2026, but no software degree apprenticeship vacancy could be found | 2026-09-09 |
 
 ## Rejected
 
