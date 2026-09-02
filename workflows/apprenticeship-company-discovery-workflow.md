@@ -109,7 +109,7 @@ Everything else gets screened, including rejections a month or more old, Revisit
 
 To screen, apply the role filter:
 
-* Research whether the company offers a level 6 Digital Technology Solutions apprenticeship. If they have multiple options, choose the one most aligned to the role of a Software Engineer. Do not include network engineering or cybersecurity apprenticeships.
+* Research whether the company offers a level 6 Digital Technology Solutions apprenticeship. A level 6 AI, machine learning or AI engineering apprenticeship counts too and is treated the same as a software engineering one. If they have multiple options, choose the one most aligned to the role of a Software Engineer, or to AI engineering. Do not include network engineering or cybersecurity apprenticeships.
 * If no level 6 role exists, check whether the company offers a level 4 apprenticeship in software engineering, AI engineering, or similar.
 * If neither exists, the company fails.
 
