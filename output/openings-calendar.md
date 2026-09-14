@@ -2,6 +2,16 @@
 
 Built 2026-09-01 from the Airtable tracker (89 records). Ordered by Open Date, earliest first.
 
+> **Correction added 2026-09-14 — Barclays is open.** The 2027 Technology Developer Degree
+> Apprenticeship (Northampton) went live on Barclays' own job board on **9 September 2026** and
+> **closes 25 September 2026**, with the listing warning it may close earlier on volume. The
+> `1 Sept [ESTIMATE]` row for Barclays below, and the "not open" finding in
+> `september-open-date-check.md`, were both correct on 1 September and are now out of date.
+> Barclays also has 2027 apprenticeships live for Knutsford, London, Manchester and Glasgow across
+> Technology Analyst, Business Banking, Operations, Risk, Compliance and Customer Care.
+> Note: Barclays allows only one application per six-month period.
+> See `/output/barclays/barclays-fact-file.md`.
+
 Every row carries the marker now stored at the front of its Date Notes:
 
 * `[OPEN NOW]` — verified open today

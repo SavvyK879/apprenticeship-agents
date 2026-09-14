@@ -2,6 +2,15 @@
 
 Re-run 2026-09-01 against the Airtable tracker (85 records). First run was 2026-08-31.
 
+> **Correction added 2026-09-14 — Barclays opened on 9 September.** The "Barclays | Own job board
+> returns 0 results for apprentice" line below was accurate on 1 September and is now stale. The
+> 2027 Technology Developer Degree Apprenticeship (Northampton, Pavilion Drive) posted on
+> **9 September 2026** and **closes 25 September 2026**. The third-party guides flagged as
+> "unconfirmed by Barclays" in this document turned out to be roughly right about a September
+> opening, though the close is September rather than mid-November.
+> This is the one finding in this document known to have changed. The rest has not been re-checked
+> since 1 September, so treat the other rows as a 1 September snapshot, not as current.
+
 16 records carry an Open Date in September 2026. None is confirmed open. September starting has
 changed nothing so far.
 

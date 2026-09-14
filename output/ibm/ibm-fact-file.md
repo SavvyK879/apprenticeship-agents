@@ -8,7 +8,9 @@
 > Apprenticeship, which carries a Software Engineering specialism [7]. That is the role documented here, and it
 > matches the existing IBM row in the tracker.
 
-> **Note on listing availability.** The 2027 listing was not live when this file was written (September 2026).
+> **Note on listing availability.** The 2027 listing was not live when this file was written (14 September 2026).
+> The February 2026 window that has already closed was for the **2026** intake, so it was the wrong year for a
+> 2027 start and nothing has been lost by missing it. See Section 5 for the expected next window.
 > IBM's early careers page is currently register-your-interest only [12]. Section 4 is therefore built from IBM's
 > own programme material, the university partner's course description, and the most recent published IBM DTS
 > listing (2025 cycle, now expired) [9]. Re-check against the live listing before applying.
@@ -136,9 +138,14 @@ industry and get the necessary exposure to set you up for a lifelong career" [5]
 
 ## 5. Application Process Steps
 
-The 2027 window was not open at the time of writing. The 2026 window opened on **13 February 2026** and ran for
-roughly one week [11]. Treat February as the likely window and register interest on IBM's talent network to be
-notified [12].
+**Timing: the February 2026 window is not a missed opportunity.** It recruited the **2026** intake, which starts
+before A levels finish for anyone sitting them in summer 2027. The relevant window is the next one. IBM's
+register-your-interest material states start dates are available for **September 2027 onwards** [11], and the 2026
+window opened **13 February 2026** and ran for roughly one week [11]. So the working assumption is a window around
+**February 2027** for a September 2027 start.
+
+This is an assumption about the pattern, not a published date. Register on IBM's talent network now so the opening
+is pushed to you rather than discovered late [12].
 
 Stages, based on published descriptions of recent IBM UK apprenticeship cycles [11]:
 
