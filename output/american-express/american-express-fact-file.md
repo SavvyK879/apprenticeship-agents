@@ -6,23 +6,39 @@
 > requested as a "double check" of an existing file — there wasn't one to check. The only prior Amex material in
 > the repo was a single line in `apprenticeship-search-log.md` and the Airtable tracker row [9].
 
-> ## ⚠️ Three things the tracker has wrong
+> ## ✅ CONFIRMED LIVE — Burgess Hill 2027, closes 9 October 2026
+>
+> Verified 14 September 2026 against **American Express's own recruiting system** (Oracle, site CX_1) [5]:
+>
+> | Field | Value |
+> | --- | --- |
+> | Title | Campus - Apprenticeship Programme - Technology Software Engineering - **Burgess Hill - 2027 (UK)** |
+> | Requisition ID | 25022282 |
+> | Location | Burgess Hill, West Sussex |
+> | Posted | **1 September 2026** |
+> | **Closes** | **9 October 2026** |
+> | Workplace type | **Hybrid** |
+>
+> **London 2027 is NOT on Amex's own board.** A London 2027 listing appears on third-party aggregators [7], but a
+> keyword search of Amex's live requisitions returns only Burgess Hill for the UK [5]. Either London has already
+> closed or it is not yet posted. **Do not rely on the aggregator listing.** Burgess Hill is the one that is
+> confirmed open.
+
+> ## ⚠️ Three things the tracker still has wrong
 >
 > 1. **The stored link is dead.** `https://careers.americanexpress.com/students/uk` [9] returns a 404. Amex has
->    also retired its old Eightfold job board — the 2026 Burgess Hill listing URL now 404s too. The working entry
->    point is the Oracle board at `https://careers.americanexpress.com/en/sites/CX_1/jobs` [5].
-> 2. **Applications are rolling, not an October-to-February window.** The tracker records "Open: approx Oct.
->    Close: approx Feb" [9]. The published listing says applications "are reviewed on a rolling basis" [6].
->    Rolling means early beats polished.
+>    also retired its old Eightfold job board. The working entry point is
+>    `https://careers.americanexpress.com/en/sites/CX_1/jobs` [5].
+> 2. **Dates are wrong.** The tracker records "Open: approx Oct. Close: approx Feb" [9]. The real window for the
+>    2027 Burgess Hill role is **1 September to 9 October 2026** [5], and applications are reviewed on a **rolling
+>    basis** on top of that [5].
 > 3. **The grades field is garbled.** The tracker says "A levels grade 5+" [9]. A levels are graded A*–E; grade 5
 >    is a GCSE grade. The actual requirement is A-Levels *or equivalent* — with BTEC/T-Levels needing Grade 5 or
->    above — preferably STEM, plus GCSE Maths and English at Grade 5+ [6].
-
-> **What I could not verify.** Amex's own job board is JavaScript-rendered and returned nothing to automated
-> fetches, so I could **not** confirm from Amex directly whether a 2027 listing is live today. Aggregators carry
-> "Campus - Apprenticeship Programme - Technology Software Engineering - **London - 2027 (UK)**" and a matching
-> **Burgess Hill - 2027** listing [7], which is strong evidence the 2027 cycle exists, but the open/close status
-> needs a manual look at [5]. This is queued for the 15 September re-check.
+>    above — preferably STEM, plus GCSE Maths and English at Grade 5+ [5].
+>
+> **Salary is not stated in Amex's listing** [5]. The tracker says "£23,000 to £25,000 approx" [9]; aggregators
+> show a £22k–£26k band for Burgess Hill and a much higher £30k–£35k band for the London role [7]. Treat all of
+> these as unconfirmed — Amex publishes no figure.
 
 ---
 
@@ -105,112 +121,144 @@ management* — note the risk clause, it is not excellence for its own sake).
 
 ## 4. Role Requirements
 
-**Programme:** Technology Software Engineering Apprenticeship [6]
-**Level:** **Level 4** [6][9]
-**Duration:** **18 months** [6][9]
-**Structure:** 80% on-the-job learning, 20% classroom-based training with an external training partner [6]
-**Locations:** London and Burgess Hill [6][9]
-**Salary:** tracker records "£23,000 to £25,000 approx" [9]; aggregator listings show a £22k–£26k band [7]
-**Training provider:** "External partner, not published" [9] — Amex does not name it
-**Start:** September [9]
+All of the following is quoted or taken directly from Amex's live requisition 25022282 [5] unless marked otherwise.
 
-**What you would do** [6]:
+**Programme:** 18-month Software Engineering Apprenticeship, **Level 4** qualification
+**Structure:** "20% classroom-based with our external training partner and 80% on the job learning"
+**Location:** Burgess Hill, West Sussex. **Hybrid** workplace type.
+**Closes:** 9 October 2026, with rolling review before then
+**Training provider:** an unnamed "external training partner" — Amex does not name it; the tracker also records
+"External partner, not published" [9]
 
-* Develop software applications as part of a **Scrum team**
-* Write code, conduct **code reviews**, and perform **testing**
-* Collaborate with **Product Managers, Senior Engineers and Application Architects**
-* Learn technical skills on the job
+**Programme intent:** "Our Program has been designed to nurture our next generation of technical specialists and
+leaders." Apprentices "work on projects that have real and long-lasting impact on our business", supported by "a
+curated program of networking and learning experiences".
 
-**Technologies named in the listing** [6]: Java, Go, Kotlin, Python, CSS, JavaScript, Maven, Spring.
+**Languages you would work with:** "Java, Go, Kotlin, Python, CSS, Java Script, Mavern, Spring and many more."
+*(Amex's listing spells Maven as "Mavern".)*
 
-**Entry requirements** [6]:
+**What type of work can you expect** — Amex's own list:
 
-* A-Levels or equivalent (BTEC or T-Levels at Grade 5 or above), **preferably in STEM subjects**
-* GCSE Maths and English at **Grade 5 or above**
+* "Identify exciting opportunities for adopting new technologies to solve existing needs and predict future challenges"
+* "Develop software applications as part of a Scrum team"
+* "Learn technical skills, write code, conduct code reviews and testing"
+* "Partner with Product Managers Senior Engineers and Application Architects on your team to conceptualize, build
+  new products and prioritize features."
+* "Design work, such as user experience or graphic design"
+* "Take part in social activities, charity days, and projects with other Apprentices, Summer Interns and Graduates"
 
-**Exclusion clause — read this carefully** [6]:
+**Minimum Qualifications:**
 
-> "If you have studied Computer Science at Level 4 or achieved Software Engineering Level 4 Diploma, you are not
-> eligible to apply."
+* "A-Levels - or equivalent i.e. BTEC, T-Levels (Grade 5 or above) preferably in STEM related subjects (Science,
+  Technology, Engineering, Maths)"
+* "GCSE Maths & English – (Grade 5 or above)"
+* "Please note that if you have studied Computer Science at Level 4 or achieved Software Engineering Level 4
+  Diploma, you are not eligible to apply."
 
-**This does not rule you out.** A levels are Level 3, not Level 4. A level Computer Science is fine. The clause
-targets people who already hold the qualification the apprenticeship awards.
+**This exclusion does not rule you out.** A levels are Level 3, not Level 4. A level Computer Science is fine. The
+clause targets people who already hold the qualification this apprenticeship awards.
 
-**Application handling:** "Applications are reviewed on a rolling basis, and American Express will be in contact
-with you regarding your application" [6].
+**Preferred Skills — this is the scoring list, and it is unusually explicit:**
+
+* "Creative, collaborative, and curious thinker with a desire to learn"
+* "An eye for detail and the ability to identify opportunities for innovation and change"
+* "Passion for technology"
+* "Some entry level software development experience, design, or creative experience of developing products or
+  projects either in an **academic, professional, or personal setting**"
+* "Excellent written and verbal communication skills with the ability to articulate work to team members and partners."
+* "**Prior coding knowledge/experience in at least one programming language**"
+
+**Eligibility and funding:** "Employment eligibility to work with American Express in the United Kingdom is required
+as the company will not pursue visa sponsorship for these positions." The apprenticeship is UK Government funded, so
+the Government's apprenticeship funding rules apply.
 
 > ### ⚠️ The strategic problem with this one
 >
-> **Level 4 over 18 months is not a degree.** Every other technology target in your tracker is Level 6 — Barclays,
-> IBM, Goldman, HSBC, KPMG, MBDA, QinetiQ, Shell, Capgemini, RSM, National Grid, MI5/MI6 — all Level 6 degree
-> apprenticeships, typically 3–4 years, ending with a BSc [9 and the openings calendar].
+> **Level 4 over 18 months is not a degree.** Every other technology target in the tracker is Level 6 — Barclays,
+> IBM, Goldman, HSBC, KPMG, MBDA, QinetiQ, Shell, Capgemini, RSM, National Grid, MI5/MI6 — typically 3–4 years,
+> ending with a BSc [9 and the openings calendar].
 >
-> Amex is the outlier. Level 4 is roughly equivalent to the first year of a degree. Eighteen months is less than
-> half the commitment. That cuts both ways:
+> Amex is the outlier. Level 4 is roughly equivalent to the first year of a degree. That cuts both ways:
 >
-> * **Against it:** no degree at the end, lower ceiling on the qualification, and the salary is not higher to
->   compensate (£23–25k [9] vs Barclays' £25,200 [Barclays fact file]).
-> * **For it:** you are a qualified software engineer at Amex in 18 months rather than 4 years, on a real
->   engineering team from the start, and nothing stops you doing a Level 6 afterwards. The tech stack listed
->   (Java, Go, Kotlin, Spring [6]) is genuinely modern.
+> * **Against it:** no degree at the end, lower ceiling on the qualification, and Burgess Hill is a relocation from
+>   Northampton with no published salary to justify it [5].
+> * **For it:** qualified software engineer in 18 months rather than 4 years, on a real Scrum team from day one,
+>   modern stack (Java, Go, Kotlin, Spring [5]), and nothing stops a Level 6 afterwards.
 >
-> **This is a decision, not an oversight.** Worth being deliberate about whether Amex belongs in a Level 6 list.
+> **This is a decision, not an oversight.** Be deliberate about whether Amex belongs in a Level 6 list.
 
 ## 5. Application Process Steps
 
-Amex does not publish a stage-by-stage apprentice application journey the way Barclays does. What is on record:
+Amex does not publish a stage-by-stage apprentice journey the way Barclays does. What is confirmed:
 
-1. **Online application** via the Amex careers board [5].
-2. **Rolling review** — "Applications are reviewed on a rolling basis, and American Express will be in contact with
-   you regarding your application" [6].
+1. **Online application** through Amex's careers board, requisition 25022282 [5].
+2. **Rolling review.** "Our team will review completed applications on a rolling basis. We appreciate your patience
+   while we consider your application and will be in contact with you." [5]
+3. **Hard close: 9 October 2026** [5].
 
-Beyond that, the stages are not published by Amex on an approved source. **Unverified opinion, inferred from the
-AI guidelines:** the guidelines explicitly cover **technical assessments** and **virtual or in-person interviews**
+Beyond that, the stages are not published by Amex on an approved source. **Unverified opinion, inferred from the AI
+guidelines:** those guidelines explicitly cover **technical assessments** and **virtual or in-person interviews**
 [3], which implies the process includes at least one technical assessment and at least one interview, and that
-interviews may be virtual. Do not treat that as confirmed.
+interviews may be virtual. Treat that as inference, not fact.
 
-**Practical consequence of rolling review:** there is no deadline to work back from. The application goes in when
-it is ready, and "ready" should mean days, not weeks.
+**Practical consequence:** rolling review plus a fixed 9 October close means the deadline is the *worst* case, not
+the target. Earlier is better on both counts.
 
 ## 6. Application Tailoring Tips
 
-**Apply early, because rolling means early.** Rolling review [6] rewards the first competent application, not the
-best one submitted in month three. This is the opposite of the Barclays fixed-deadline model.
+Amex publishes an explicit **Preferred Skills** list [5]. Treat it as the scoring rubric and answer it point by point.
 
-**Lead with STEM A levels — they are explicitly preferred.** You are taking maths, further maths, computer science
-and physics [own CV]. The listing says "preferably in STEM subjects" [6]. That is four out of four. Say it plainly.
+**Apply before the end of September, not on 9 October.** Rolling review [5] means the queue matters as much as the
+deadline. The deadline is the worst case.
 
-**Name the stack.** The listing lists Java, Go, Kotlin, Python, CSS, JavaScript, Maven and Spring [6]. Your CV
-already has Python, C# and HTML [own CV]. Python and HTML/CSS overlap directly. C# maps onto Java closely enough to
-be worth a sentence about transferring between C-family languages, but do not claim Java experience you do not have
-— the AI guidelines' governing principle is work "you fully understand and can independently reproduce and
-explain" [3], and a technical assessment will test it.
+**"Prior coding knowledge/experience in at least one programming language"** [5] — you have Python and C# [own CV].
+This is a listed preferred skill and you clear it outright.
 
-**Speak to Scrum, code review and testing specifically.** All three are named responsibilities [6]. Most
-school-leaver applicants talk about building things and not about reviewing or testing them. Your Toru Digital
-week covered Git and publishing projects [own CV] — that is the hook for code review and version control.
+**"Some entry level software development experience... in an academic, professional, or personal setting"** [5] —
+note **personal setting** is explicitly allowed. This is the single most useful clause in the listing: a personal
+project counts, and Amex says so in writing. Your hackathon (Unity and C#, 3rd place) and any personal project are
+directly in scope.
 
-**"We Win As a Team" is the value with the most evidence behind it in your CV.** The cricket club volunteering
-(teaching children, leading sessions) and the four-person Barclays case study [own CV] both fit. Amex's own words
-are "collective success over individual gain" [1].
+**"Preferably in STEM related subjects"** [5] — you take maths, further maths, computer science and physics [own CV].
+Four out of four, plus an A* in A Level Maths already banked. Lead with this.
 
-**"We Do What's Right" is the payments-specific one.** Amex earns trust through "reliability, consistency and
-integrity" [1], and "We Make It Great" is explicitly paired with "robust risk management" [1]. For a payments
-network, correctness beats cleverness. A story about catching your own mistake before it mattered fits Amex better
-than a story about building something fast.
+**GCSE Grade 5 threshold — check this one.** Amex requires GCSE Maths **and English** at Grade 5 or above [5]. Your
+GCSEs are Maths 9 and English Language 6 [own CV]. Both clear it. (Worth double-checking which English grade Amex
+counts, since English Literature is 7 and English Language is 6 [own CV] — both are above 5, so either way you pass.)
 
-**Do not overlook Burgess Hill.** It is a 900-colleague technology site [4]. If the London listing is competitive,
-Burgess Hill is the same programme [6][7] with a smaller applicant pool. Both appear in the 2027 cycle [7].
+**"Design work, such as user experience or graphic design" is listed as expected work** [5]. This is unusual for an
+engineering apprenticeship and it plays to the Sift App prototype, where you researched requirements and built a
+clickable Figma prototype [own CV]. Most applicants will have no design evidence. You do.
 
-**Stay inside the AI rules and say nothing about tooling.** Research and formatting help are permitted [3]. Content
-you cannot explain is not. Since your CV work runs through a master-CV-traceable process, you are compliant — but
-be ready to explain any line on the page from memory.
+**"An eye for detail and the ability to identify opportunities for innovation and change"** [5] — the hackathon
+lesson about planning requirements properly before starting [own CV] is a detail-and-process story, not a coding one.
+That is what this bullet is asking for.
 
-**Likely interview questions (unverified opinion, inferred from the values and the named responsibilities):**
+**"Creative, collaborative, and curious thinker with a desire to learn"** [5] — the Penrose gold award article on
+domestic humanoid robots and the JetBrains Python course [own CV] are both self-directed curiosity, unprompted by
+school.
 
-* Tell us about a time you worked in a team where the outcome mattered more than your own contribution. *(We Win As a Team [1])*
-* Describe a time you found an error in your own work. *(We Do What's Right [1])*
-* Walk us through a piece of code you wrote and why you made the choices you did. *(technical assessment [3])*
+**"Excellent written and verbal communication skills with the ability to articulate work to team members and
+partners"** [5] — the 10-minute AGI presentation, the CAIS findings presented to HR, and coaching and tutoring
+[own CV] all evidence this. Amex names *written* first, so the application form itself is part of the assessment.
+
+**Mirror the Blue Box Values that actually fit a technology apprentice** [1]: **We Do What's Right** (reliability and
+integrity, which is what a payments network sells), **We Win As a Team** (the role is explicitly Scrum-based [5]),
+and **We Make It Great** (note Amex pairs excellence with "robust risk management" — not excellence for its own sake).
+
+**Burgess Hill is a real relocation question, so answer it before they ask.** It is a 900-colleague technology site
+[4], hybrid [5], and roughly 2.5 hours from Northampton. London is not confirmed open [5]. If you are not willing to
+move or commute, this application is not worth the slot.
+
+**Stay inside the AI rules.** Research and formatting help are permitted; content you cannot explain is not [3]. Be
+ready to explain any line on your CV from memory, especially anything technical.
+
+**Likely interview questions (unverified opinion, inferred from the Preferred Skills and values):**
+
+* Walk us through something you built and the decisions you made. *(prior coding experience [5])*
+* Tell us about a time your attention to detail caught something others missed. *(eye for detail [5])*
+* Tell us about a time the team's result mattered more than your own contribution. *(We Win As a Team [1])*
+* What technology are you curious about right now, and what have you done about it? *(passion for technology [5])*
 * Why an 18-month Level 4 apprenticeship rather than a degree route? *(the obvious challenge given your other targets)*
 * Why payments, and why Amex rather than a bank? *(We Back Our Customers [1])*
 
@@ -220,7 +268,7 @@ be ready to explain any line on the page from memory.
 2. American Express Careers UK — "About Team Amex". https://www.americanexpress.com/en-gb/careers/about-teamamex/
 3. American Express Careers UK — "AI Guidelines" for candidates. https://www.americanexpress.com/en-gb/careers/ai-guidelines/
 4. American Express Careers UK — Burgess Hill office ("Sussex House"). https://www.americanexpress.com/en-gb/careers/locations/burgess-hill/
-5. American Express Careers — job board (Oracle CX_1), accessed 14 September 2026. https://careers.americanexpress.com/en/sites/CX_1/jobs
+5. American Express — live requisition 25022282, "Campus - Apprenticeship Programme - Technology Software Engineering - Burgess Hill - 2027 (UK)", read directly from Amex's Oracle recruiting system on 14 September 2026. Posted 1 September 2026, closes 9 October 2026. Board: https://careers.americanexpress.com/en/sites/CX_1/jobs
 6. Prosple UK — "Technology Software Engineering - Apprenticeship Programme" listing detail. https://uk.prosple.com/graduate-employers/american-express-uk/jobs-internships/technology-software-engineering-apprenticeship-programme
 7. Totaljobs — "Campus - Apprenticeship Programme - Technology Software Engineering - London - 2027 (UK)", American Express. https://www.totaljobs.com/job/campus-apprenticeship-programme-technology-software-engineering-london-2027-uk/american-express-job107931392
 8. American Express Careers UK — Technology career area. https://www.americanexpress.com/en-gb/careers/career-areas/technology/
