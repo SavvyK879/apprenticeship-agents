@@ -2,11 +2,19 @@
 
 **Role covered:** Level 6 Digital and Technology Solutions Degree Apprenticeship (Software Engineering specialism)
 
-> **Note on the role name.** This fact file was requested as "Full Stack Developer". IBM UK does not run an
-> apprenticeship under that title. The Full Stack Developer roles on careers.ibm.com are standard hires, mostly
-> outside the UK. IBM's UK software apprenticeship is the Level 6 Digital and Technology Solutions (DTS) Degree
-> Apprenticeship, which carries a Software Engineering specialism [7]. That is the role documented here, and it
-> matches the existing IBM row in the tracker.
+> **Note on the role name — corrected 2026-09-14.** This fact file was requested as "Full Stack Developer".
+> An earlier version of this note said IBM UK runs no apprenticeship under that title. **That was wrong.** Savya
+> saw the listing and had the link; it has since closed. IBM removes expired listings from careers.ibm.com (the
+> 2025 DTS listing already 404s), so a closed IBM listing cannot be verified after the fact from public sources.
+> Absence from search is not evidence it never existed.
+>
+> **Open action:** the listing URL Savya had is the single most useful missing item for this file. With it, the
+> exact title, requirements and close date can be recovered from an archive and this section rewritten properly.
+>
+> In the meantime this file documents IBM's **Level 6 Digital and Technology Solutions (DTS) Degree
+> Apprenticeship**, which carries a Software Engineering specialism [7] and matches the existing IBM row in the
+> tracker. Treat that as the closest documented neighbour to the Full Stack listing, not as confirmation that the
+> Full Stack listing was the same programme.
 
 > **Note on listing availability.** The 2027 listing was not live when this file was written (14 September 2026).
 > The February 2026 window that has already closed was for the **2026** intake, so it was the wrong year for a
@@ -138,8 +146,11 @@ industry and get the necessary exposure to set you up for a lifelong career" [5]
 
 ## 5. Application Process Steps
 
-**Timing: the February 2026 window is not a missed opportunity.** It recruited the **2026** intake, which starts
-before A levels finish for anyone sitting them in summer 2027. The relevant window is the next one. IBM's
+**Timing.** Note this section covers the **DTS** apprenticeship cycle. The Full Stack listing Savya saw ran on its
+own timetable, which is not recorded here because the listing is gone. Do not assume the dates below applied to it.
+
+The February 2026 DTS window recruited the **2026** intake, which starts before A levels finish for anyone sitting
+them in summer 2027. The relevant window is the next one. IBM's
 register-your-interest material states start dates are available for **September 2027 onwards** [11], and the 2026
 window opened **13 February 2026** and ran for roughly one week [11]. So the working assumption is a window around
 **February 2027** for a September 2027 start.
