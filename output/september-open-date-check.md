@@ -11,6 +11,34 @@ Re-run 2026-09-01 against the Airtable tracker (85 records). First run was 2026-
 > This is the one finding in this document known to have changed. The rest has not been re-checked
 > since 1 September, so treat the other rows as a 1 September snapshot, not as current.
 
+> ## Re-check run 2026-09-15 — full sweep
+>
+> Every company below was re-checked against employer sites, job boards and the Government's Find an
+> Apprenticeship service. **Two things are open. Nothing else is.**
+>
+> | Company | Status on 2026-09-15 | Close |
+> | --- | --- | --- |
+> | **Barclays** | **OPEN** — 2027 Technology Developer, Northampton | **25 Sept 2026** |
+> | **American Express** | **OPEN** — Technology Software Engineering, Burgess Hill 2027 (req 25022282) | **9 Oct 2026** |
+> | Deloitte | **Closed.** BrightStart Technology 2026 listing now reads "no longer available". No 2027 listing posted. | — |
+> | Goldman Sachs | Not open. 2027 opens Autumn 2026. Warns it closes early once enough candidates apply. | — |
+> | HSBC | Not open. 2027 Degree Apprenticeship listed with opening date TBC. | — |
+> | EY | Not open. Sept 2026 intake closed 24 April 2026; says it will reopen "later this year". | — |
+> | KPMG | Not open. Sept 2026 intake closed 24 April 2026. | — |
+> | MBDA | Not open. Closed for Sept 2026; register interest for 2027. | — |
+> | QinetiQ | No 2027 listing surfaced. | — |
+> | Capgemini | No 2027 listing surfaced. | — |
+> | RSM | No 2027 listing surfaced. | — |
+> | National Grid | **Unverified.** Careers board returns nothing to automated fetch. Needs a manual look. | — |
+> | IBM | Not open. DTS cycle expected around Feb 2027. The Full Stack listing Savya saw has closed. | — |
+>
+> **Cross-check:** the Government's Find an Apprenticeship service returns **0 results** for Level 6 Digital
+> software engineering vacancies, which supports the conclusion that nothing else is live right now.
+>
+> **The Deloitte worry from 1 September is resolved.** It was flagged as a rolling close that might already be
+> late. The 2026 listing has since closed outright and no 2027 listing exists yet, so nothing was missed.
+
+
 16 records carry an Open Date in September 2026. None is confirmed open. September starting has
 changed nothing so far.
 

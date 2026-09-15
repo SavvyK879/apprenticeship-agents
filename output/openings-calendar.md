@@ -11,6 +11,12 @@ Built 2026-09-01 from the Airtable tracker (89 records). Ordered by Open Date, e
 > Technology Analyst, Business Banking, Operations, Risk, Compliance and Customer Care.
 > Note: Barclays allows only one application per six-month period.
 > See `/output/barclays/barclays-fact-file.md`.
+>
+> **Full re-check 2026-09-15:** every other company in this calendar was re-checked. Only Barclays (closes
+> 25 Sept) and American Express (Burgess Hill 2027, closes 9 Oct) are open. Deloitte's 2026 BrightStart has
+> closed with no 2027 listing yet. Goldman, HSBC, EY, KPMG, MBDA, QinetiQ, Capgemini, RSM and IBM are all
+> confirmed not open. National Grid could not be verified and needs a manual check. See
+> `september-open-date-check.md` for the full table.
 
 Every row carries the marker now stored at the front of its Date Notes:
 
