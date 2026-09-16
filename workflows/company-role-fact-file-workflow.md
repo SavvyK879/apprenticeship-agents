@@ -19,8 +19,22 @@ Every fact file has these sections, in this order:
 3. **Recent News & Culture Signals** — recent press coverage, LinkedIn company/employee activity, anything showing direction or values in practice
 4. **Role Requirements** — responsibilities and required skills/qualifications, taken from the official job listing
 5. **Application Process Steps** — the actual application stages (online form, assessment/testing, interview rounds, etc.), as far as findable
-6. **Application Tailoring Tips** — concrete suggestions: which skills to emphasize, language to mirror from the company's own materials, likely interview questions to prepare for
-7. **Sources** — numbered list of every source used, with links, matching the inline citation markers used throughout sections 1-6
+6. **Psychometric Tests**: every online test in the process (aptitude, situational judgement, personality or working style, game based, coding). See Psychometric Tests Section below for what it must cover
+7. **Application Tailoring Tips** — concrete suggestions: which skills to emphasize, language to mirror from the company's own materials, likely interview questions to prepare for
+8. **Sources** — numbered list of every source used, with links, matching the inline citation markers used throughout sections 1-7
+
+## Psychometric Tests Section
+
+For each test in the process, cover:
+
+* **What it is**: the test type (numerical, verbal, situational judgement, personality or working style, game based, coding) and what the company says it measures
+* **Provider**: name the provider (e.g. SHL, Cappfinity, Arctic Shores, HackerRank) only if the company, the listing or the candidate's own invite email confirms it. If not, write "provider not published" and give any likely provider as unverified opinion, with no citation
+* **Format and timing**: length, number of parts, device rules, and the deadline from invitation
+* **Official practice**: the company's own practice tests first, then the provider's free official practice pages. If the provider is unconfirmed, link practice for the matching test type and say it is format practice only
+* **Prep plan**: a short, concrete plan sized to the time until the deadline, built from what the test measures. For personality or working style tests, the advice is to answer honestly and consistently, not to game it
+* **Adjustments**: what the company offers (extra time, offline versions) and how to ask
+
+If the company publishes nothing about its tests, say so plainly and keep the section short. Do not fill it with generic test advice.
 
 ## Sources Used for Research
 
@@ -28,8 +42,9 @@ Every fact file has these sections, in this order:
 * Official job/apprenticeship listing
 * News articles
 * LinkedIn (company page and employee posts)
+* Official test provider websites (e.g. SHL, Cappfinity, Arctic Shores, HackerRank), for the Psychometric Tests section only: test formats and free official practice
 
-Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this workflow's approved source list.
+Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this workflow's approved source list. Do not use third party test prep sites (e.g. JobTestPrep, GraduatesFirst, AssessmentDay) either. They guess providers, contradict each other and sell practice packs.
 
 ## Step-By-Step Process
 
@@ -47,7 +62,7 @@ Do not use employee review sites (e.g. Glassdoor, Indeed) — not part of this w
 
 **Step 3 - Full research pass**
 
-* Research all five content sections (Company Overview, Values, Recent News & Culture Signals, Role Requirements, Application Process Steps) using only the approved sources.
+* Research all six content sections (Company Overview, Values, Recent News & Culture Signals, Role Requirements, Application Process Steps, Psychometric Tests) using only the approved sources.
 * Do this before writing anything — the goal is a finished report on the first write, not a rough pass to be redone later.
 
 **Step 4 - Write the fact file**
@@ -73,28 +88,20 @@ Find the record first. Search the Company field for the company name. If no reco
 
 Airtable will not take a file upload through the MCP tools. It takes a URL and fetches the file itself, so the file has to be publicly reachable at the moment Airtable fetches it.
 
-*Preferred path, via the GitHub raw URL*
+Fact files are gitignored. They carry CV details (school, grades, work experience) and this repository is public, so never commit them or attach them through a GitHub raw URL.
 
-This repository is public, so a raw GitHub link resolves and no third-party upload is needed. The file has to be pushed before Airtable can fetch it, so the commit comes first here.
-
-1. Commit and push the fact file to git.
-2. Build the raw URL: `https://raw.githubusercontent.com/SavvyK879/apprenticeship-agents/main/output/{company}/{company}-fact-file.md`
-3. Fetch that URL yourself once to confirm it resolves. A push can take a few seconds to show up, and Airtable will not retry.
-4. Write it to the Attachments field as `[{"url": "<that URL>", "filename": "{company}-fact-file.md"}]`.
-5. Read the record back and check the attachment landed. Airtable copies the file into its own storage, so the link is only a courier. Later edits to the file in git will not update the copy in Airtable, so re-attach if the fact file changes.
-
-*Fallback, via Google Drive*
-
-Use this only if the repository has been made private again, so the raw URL no longer resolves.
+*Preferred path, via Google Drive*
 
 1. Upload `/output/{company}/{company}-fact-file.md` to Google Drive.
 2. Turn on link sharing so anyone with the link can view.
 3. Build the direct download URL: `https://drive.google.com/uc?export=download&id={fileId}`.
-4. Attach it the same way, then confirm it landed and delete the Drive copy.
+4. Write it to the Attachments field as `[{"url": "<that URL>", "filename": "{company}-fact-file.md"}]`.
+5. Read the record back and check the attachment landed. Airtable copies the file into its own storage, so the link is only a courier. Later edits to the local file will not update the copy in Airtable, so re-attach if the fact file changes.
+6. Move the Drive copy to the bin once the attachment has landed.
 
 *Fallback, manual*
 
-If the attachment fails either way, stop after one retry. Tell the user the full file path and ask them to drag it into the Attachments cell. Say which step failed so they know what broke.
+If the Drive attachment fails, stop after one retry. Tell the user the full file path and ask them to drag it into the Attachments cell. Say which step failed so they know what broke.
 
 ## File Naming
 
