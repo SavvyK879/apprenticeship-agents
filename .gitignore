@@ -30,10 +30,10 @@ venv/
 # SDD scratch workspace (not part of the project)
 .superpowers/
 
-# Personal CV content and fact files built from it (never public)
+# Personal CV content and everything the agents build from it (never public).
+# cv/ and output/ are junctions into OneDrive so they sync to other devices.
 /cv/
-output/**/*-cv.*
-output/**/*-fact-file.*
+/output/
 docs/master-cv.docx
 docs/*-cv.docx
 

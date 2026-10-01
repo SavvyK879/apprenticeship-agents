@@ -30,6 +30,10 @@ Neither carries a date in the file name.
 /cv
 Contains the master CV (master-cv.md), the single source of truth for the user's experience. Tailored per-company versions do not live here - those go in /output/{company}/.
 
+/cv and /output are gitignored and never reach GitHub. On the main PC they are junctions into
+OneDrive (C:\Users\savya\OneDrive\apprenticeship-docs\) so they sync to other devices. Read and
+write them through their normal repo paths. Do not delete or replace the junctions.
+
 When a new top-level folder is created, add it to this list.
 
 # The Tracker Lives in Airtable
